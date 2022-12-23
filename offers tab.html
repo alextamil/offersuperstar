@@ -30,10 +30,10 @@
                                 <a class="nav-link active" aria-current="page" href="Index.html">Home</a>
                             </li>
                             <li class="nav-item">
-                                <a class="nav-link" href="about.html">Offers</a>
+                                <a class="nav-link" href="offer.html">Offers</a>
                             </li>
                             <li class="nav-item">
-                                <a class="nav-link" href="contact.html">Stores</a>
+                                <a class="nav-link" href="shops.html">Stores</a>
                             </li>
                             <li class="nav-item">
                                 <a class="nav-link" href="about.html">Services</a>
@@ -45,7 +45,7 @@
                                 <a class="nav-link" href="contact.html">Buy & Help</a>
                             </li>
                             <li class="nav-item">
-                                <a class="nav-link" href="#">
+                                <a class="nav-link" href="edit profile.html">
                                     <svg width="28" height="28" viewBox="0 0 28 28" fill="none"
                                         xmlns="http://www.w3.org/2000/svg">
                                         <path
@@ -56,7 +56,7 @@
 
                             </li>
                             <li class="nav-item">
-                                <a class="nav-link" href="#">
+                                <a class="nav-link" href="products cart page.html">
                                     <svg width="28" height="28" viewBox="0 0 28 28" fill="none"
                                         xmlns="http://www.w3.org/2000/svg">
                                         <path
@@ -98,9 +98,10 @@
         <!-- two button section starts -->
         <div class="d-flex ">
             <div class="ms-2"><button class="w-100 see-offer-btn bg-black text-light mx-5 ">See Offers</button></div>
-            <div  class="ms-2"> <button class="w-100 shop-products-btn mx-5">Shop Products</button></div>
-            
-           
+            <div class="ms-2" onclick="navigation()"> <button class="w-100 shop-products-btn mx-5">Shop
+                    Products</button></div>
+
+
         </div>
         <!-- two button section ends -->
 
@@ -108,51 +109,51 @@
 
         <div class="d-flex py-5">
             <div class="col-xl-2  left-side ">
-                <div >
+                <div>
                     <div class="discount">
                         <h5>Discounts</h5>
                         <div class="form-check">
                             <input class="form-check-input" type="checkbox" value="" id="flexCheckDefault">
                             <label class="form-check-label" for="flexCheckDefault">
-                              10% Off
+                                10% Off
                             </label>
-                          </div>
-                          <div class="form-check">
-                            <input class="form-check-input" type="checkbox" value="" id="flexCheckChecked" >
+                        </div>
+                        <div class="form-check">
+                            <input class="form-check-input" type="checkbox" value="" id="flexCheckChecked">
                             <label class="form-check-label" for="flexCheckChecked">
-                              50% Off
+                                50% Off
                             </label>
-                          </div>
-                          <div class="form-check">
-                            <input class="form-check-input" type="checkbox" value="" id="flexCheckChecked" >
+                        </div>
+                        <div class="form-check">
+                            <input class="form-check-input" type="checkbox" value="" id="flexCheckChecked">
                             <label class="form-check-label" for="flexCheckChecked">
-                              70% Off
+                                70% Off
                             </label>
-                          </div>
+                        </div>
                     </div>
-    
-                    
-    
+
+
+
                     <div class="price-range">
                         <h5>Price Range</h5>
                         <div class="form-check">
                             <input class="form-check-input" type="checkbox" value="" id="flexCheckDefault">
                             <label class="form-check-label" for="flexCheckDefault">
-                              Upto 5k
+                                Upto 5k
                             </label>
-                          </div>
-                          <div class="form-check">
-                            <input class="form-check-input" type="checkbox" value="" id="flexCheckChecked" >
+                        </div>
+                        <div class="form-check">
+                            <input class="form-check-input" type="checkbox" value="" id="flexCheckChecked">
                             <label class="form-check-label" for="flexCheckChecked">
                                 5k-10k
                             </label>
-                          </div>
-                          <div class="form-check">
-                            <input class="form-check-input" type="checkbox" value="" id="flexCheckChecked" >
+                        </div>
+                        <div class="form-check">
+                            <input class="form-check-input" type="checkbox" value="" id="flexCheckChecked">
                             <label class="form-check-label" for="flexCheckChecked">
                                 10k-20k
                             </label>
-                          </div>
+                        </div>
                     </div>
                 </div>
             </div>
@@ -168,13 +169,13 @@
                                 <option name="district" value="Dindigul">Dindigul</option>
                                 <option name="district" value="Chennai">Chennai</option>
                                 <option name="district" value="Coimbature">Coimbature</option>
-                            </select>    
+                            </select>
                         </div>
-            
+
                         <div class=" dropdown3 col-xl-7 col-lg-6 col-md-6 ms-4">
-                           
-                                <input type="search" placeholder="search" class="w-100 py-2">
-                           
+
+                            <input type="search" placeholder="search" class="w-100 py-2">
+
                         </div>
                     </div>
                     <div class="d-flex  py-5">
@@ -279,103 +280,109 @@
                         </div>
                         <div class="col-xl-3 col-lg-6 col-12 mb-xl-0 me-1 mb-3">
                             <div class="card p-3 border rounded-0 border-3">
-                              <div class="card-head">
+                                <div class="card-head">
+                                    <div class="d-flex justify-content-between align-items-center">
+                                        <div class="upto">
+                                            <h3>upto 50% off</h3>
+                                        </div>
+                                        <div>
+                                            <span class="badge rounded-pill p-2 fw-normal "
+                                                style="background-color: #B60021;">Deal of the
+                                                day</span>
+                                        </div>
+
+                                    </div>
+                                    <div class="d-flex justify-content-between align-items-center">
+                                        <div class="coupons">
+                                            <p>5 coupons left</p>
+                                        </div>
+                                        <div class="ends">
+                                            <p>Ends in 1 day,5 hours,10 minutes</p>
+                                        </div>
+
+                                    </div>
+                                </div>
+                                <img src="/Images/pexels-angela-roma-7319301.jpg" class="card-img-top" alt="...">
+                                <div class="card-body">
+                                    <p class="card-text">Electronics/Mobile</p>
+                                    <h5 class="card-title">Branded new mobile phone</h5>
+                                    <p class="card-text">
+                                        <svg width="16" height="16" viewBox="0 0 8 8" fill="none"
+                                            xmlns="http://www.w3.org/2000/svg">
+                                            <path fill-rule="evenodd" clip-rule="evenodd"
+                                                d="M4 6L1.64886 7.23607L2.09789 4.61803L0.195774 2.76393L2.82443 2.38197L4 0L5.17557 2.38197L7.80423 2.76393L5.90211 4.61803L6.35114 7.23607L4 6Z"
+                                                fill="black" />
+                                        </svg>
+                                        4.3/5.0
+                                        <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16"
+                                            fill="currentColor" class="bi bi-geo-alt-fill" viewBox="0 0 16 16">
+                                            <path
+                                                d="M8 16s6-5.686 6-10A6 6 0 0 0 2 6c0 4.314 6 10 6 10zm0-7a3 3 0 1 1 0-6 3 3 0 0 1 0 6z" />
+                                        </svg>
+                                        Nearby 5kms
+
+
+                                    </p>
+                                    <p class="card-text fw-bold">save $ 5,000 <span class="fw-light">MRP: 10,100</span>
+                                    </p>
+                                    <div class="d-flex justify-content-between">
+                                        <div class="col-10">
+                                            <button class="buy-box w-100">
+                                                Buy this offer
+                                            </button>
+
+                                        </div>
+                                        <div class="pb-3 col-2">
+                                            <button class="border border-0 bg-light">
+                                                <svg width="24" height="24" viewBox="0 0 15 16" fill="none"
+                                                    xmlns="http://www.w3.org/2000/svg">
+                                                    <path
+                                                        d="M7.44048 6.09524H8.92857V3.80952H11.1607V2.28571H8.92857V0H7.44048V2.28571H5.20833V3.80952H7.44048V6.09524ZM4.46429 12.9524C3.64583 12.9524 2.98363 13.6381 2.98363 14.4762C2.98363 15.3143 3.64583 16 4.46429 16C5.28274 16 5.95238 15.3143 5.95238 14.4762C5.95238 13.6381 5.28274 12.9524 4.46429 12.9524ZM11.9048 12.9524C11.0863 12.9524 10.4241 13.6381 10.4241 14.4762C10.4241 15.3143 11.0863 16 11.9048 16C12.7232 16 13.3929 15.3143 13.3929 14.4762C13.3929 13.6381 12.7232 12.9524 11.9048 12.9524ZM4.59077 10.4762L4.6131 10.3848L5.28274 9.14286H10.8259C11.3839 9.14286 11.875 8.83048 12.128 8.3581L15 3.01714L13.7054 2.28571H13.6979L12.8795 3.80952L10.8259 7.61905H5.60268L5.50595 7.41333L3.83929 3.80952L3.13244 2.28571L2.43304 0.761905H0V2.28571H1.4881L4.16667 8.06857L3.1622 9.93524C3.04315 10.1486 2.97619 10.4 2.97619 10.6667C2.97619 11.5048 3.64583 12.1905 4.46429 12.1905H13.3929V10.6667H4.77679C4.68006 10.6667 4.59077 10.5829 4.59077 10.4762Z"
+                                                        fill="#323232" />
+                                                </svg>
+                                            </button>
+                                        </div>
+                                    </div>
+                                    <button class="request-box align-items-center border-0">
+                                        Request more offer
+                                    </button>
+                                    <div class="d-flex justify-content-between pt-4">
+                                        <div>
+                                            <button class="border-0 bg-light">
+                                                <svg width="16" height="16" viewBox="0 0 8 8" fill="none"
+                                                    xmlns="http://www.w3.org/2000/svg">
+                                                    <path fill-rule="evenodd" clip-rule="evenodd"
+                                                        d="M4 1.41597C2.95067 -0.384694 0 0.140973 0 2.39731C0 3.95097 1.857 5.53964 4 7.66664C6.14333 5.53964 8 3.95097 8 2.39731C8 0.133306 5.04167 -0.371361 4 1.41597Z"
+                                                        fill="black" />
+                                                </svg>
+                                            </button>
+                                            like this offer
+
+
+                                        </div>
+                                        <div>
+                                            <p> 500 views</p>
+                                        </div>
+                                    </div>
+                                </div>
                                 <div class="d-flex justify-content-between align-items-center">
-                                  <div class="upto">
-                                    <h3>upto 50% off</h3>
-                                  </div>
-                                  <div>
-                                    <span class="badge rounded-pill p-2 fw-normal " style="background-color: #B60021;">Deal of the
-                                      day</span>
-                                  </div>
-                  
+                                    <div class="terms">
+                                        <button class="border-0">*Terms & Conditions(popup)</button>
+
+
+
+                                    </div>
+                                    <div>
+                                        <button class="box2 border-0 ">
+                                            Refer and Earn
+
+                                        </button>
+
+                                    </div>
                                 </div>
-                                <div class="d-flex justify-content-between align-items-center">
-                                  <div class="coupons">
-                                    <p>5 coupons left</p>
-                                  </div>
-                                  <div class="ends">
-                                    <p>Ends in 1 day,5 hours,10 minutes</p>
-                                  </div>
-                  
-                                </div>
-                              </div>
-                              <img src="/Images/pexels-angela-roma-7319301.jpg" class="card-img-top" alt="...">
-                              <div class="card-body">
-                                <p class="card-text">Electronics/Mobile</p>
-                                <h5 class="card-title">Branded new mobile phone</h5>
-                                <p class="card-text">
-                                  <svg width="16" height="16" viewBox="0 0 8 8" fill="none" xmlns="http://www.w3.org/2000/svg">
-                                    <path fill-rule="evenodd" clip-rule="evenodd"
-                                      d="M4 6L1.64886 7.23607L2.09789 4.61803L0.195774 2.76393L2.82443 2.38197L4 0L5.17557 2.38197L7.80423 2.76393L5.90211 4.61803L6.35114 7.23607L4 6Z"
-                                      fill="black" />
-                                  </svg>
-                                  4.3/5.0
-                                  <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor"
-                                    class="bi bi-geo-alt-fill" viewBox="0 0 16 16">
-                                    <path d="M8 16s6-5.686 6-10A6 6 0 0 0 2 6c0 4.314 6 10 6 10zm0-7a3 3 0 1 1 0-6 3 3 0 0 1 0 6z" />
-                                  </svg>
-                                  Nearby 5kms
-                  
-                  
-                                </p>
-                                <p class="card-text fw-bold">save $ 5,000 <span class="fw-light">MRP: 10,100</span></p>
-                                <div class="d-flex justify-content-between">
-                                  <div class="col-10">
-                                    <button class="buy-box w-100">
-                                      Buy this offer
-                                    </button>
-                  
-                                  </div>
-                                  <div class="pb-3 col-2">
-                                    <button class="border border-0 bg-light">
-                                      <svg width="24" height="24" viewBox="0 0 15 16" fill="none" xmlns="http://www.w3.org/2000/svg">
-                                        <path
-                                          d="M7.44048 6.09524H8.92857V3.80952H11.1607V2.28571H8.92857V0H7.44048V2.28571H5.20833V3.80952H7.44048V6.09524ZM4.46429 12.9524C3.64583 12.9524 2.98363 13.6381 2.98363 14.4762C2.98363 15.3143 3.64583 16 4.46429 16C5.28274 16 5.95238 15.3143 5.95238 14.4762C5.95238 13.6381 5.28274 12.9524 4.46429 12.9524ZM11.9048 12.9524C11.0863 12.9524 10.4241 13.6381 10.4241 14.4762C10.4241 15.3143 11.0863 16 11.9048 16C12.7232 16 13.3929 15.3143 13.3929 14.4762C13.3929 13.6381 12.7232 12.9524 11.9048 12.9524ZM4.59077 10.4762L4.6131 10.3848L5.28274 9.14286H10.8259C11.3839 9.14286 11.875 8.83048 12.128 8.3581L15 3.01714L13.7054 2.28571H13.6979L12.8795 3.80952L10.8259 7.61905H5.60268L5.50595 7.41333L3.83929 3.80952L3.13244 2.28571L2.43304 0.761905H0V2.28571H1.4881L4.16667 8.06857L3.1622 9.93524C3.04315 10.1486 2.97619 10.4 2.97619 10.6667C2.97619 11.5048 3.64583 12.1905 4.46429 12.1905H13.3929V10.6667H4.77679C4.68006 10.6667 4.59077 10.5829 4.59077 10.4762Z"
-                                          fill="#323232" />
-                                      </svg>
-                                    </button>
-                                  </div>
-                                </div>
-                                <button class="request-box align-items-center border-0">
-                                  Request more offer
-                                </button>
-                                <div class="d-flex justify-content-between pt-4">
-                                  <div>
-                                    <button class="border-0 bg-light">
-                                      <svg width="16" height="16" viewBox="0 0 8 8" fill="none" xmlns="http://www.w3.org/2000/svg">
-                                        <path fill-rule="evenodd" clip-rule="evenodd"
-                                          d="M4 1.41597C2.95067 -0.384694 0 0.140973 0 2.39731C0 3.95097 1.857 5.53964 4 7.66664C6.14333 5.53964 8 3.95097 8 2.39731C8 0.133306 5.04167 -0.371361 4 1.41597Z"
-                                          fill="black" />
-                                      </svg>
-                                    </button>
-                                    like this offer
-                  
-                  
-                                  </div>
-                                  <div>
-                                    <p> 500 views</p>
-                                  </div>
-                                </div>
-                              </div>
-                              <div class="d-flex justify-content-between align-items-center">
-                                <div class="terms">
-                                  <button class="border-0">*Terms & Conditions(popup)</button>
-                  
-                  
-                  
-                                </div>
-                                <div>
-                                  <button class="box2 border-0 ">
-                                    Refer and Earn
-                  
-                                  </button>
-                  
-                                </div>
-                              </div>
                             </div>
-                          </div>
-                          <div class="col-xl-3 col-lg-6 col-12 mb-xl-0 me-1 mb-3">
+                        </div>
+                        <div class="col-xl-3 col-lg-6 col-12 mb-xl-0 me-1 mb-3">
                             <div class="card p-3 border rounded-0 border-3">
                                 <div class="card-head">
                                     <div class="d-flex justify-content-between align-items-center">
@@ -581,80 +588,93 @@
 
         <!-- card section ends  -->
 
-         <!-- want to register your shop section starts -->
-        
-         <div class="padding-50 homepage-section">
+        <!-- want to register your shop section starts -->
+
+        <div class="padding-50 homepage-section">
             <div class="d-flex border-3 border p-4 justify-content-between">
-                    <div class="ps-xl-5">
-                      <img src="/Images/Currency Crush Online Charts.png"/>
-                    </div>
-                    <div class="padding-left-70">
-                      <h3>want to register your shop?</h3>
-                      <p class="m-0">
-                        Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s.
-                      </p>
-                      <button class="bg-dark text-white col-xl-3 border-0 px-xl-5 px-2 w-xl-0  py-2 mt-3">Become an Vendor </button>
-                    </div>
+                <div class="ps-xl-5">
+                    <img src="/Images/Currency Crush Online Charts.png" />
+                </div>
+                <div class="padding-left-70">
+                    <h3>want to register your shop?</h3>
+                    <p class="m-0">
+                        Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been
+                        the industry's standard dummy text ever since the 1500s.
+                    </p>
+                    <button class="bg-dark text-white col-xl-3 border-0 px-xl-5 px-2 w-xl-0  py-2 mt-3">Become an Vendor
+                    </button>
+                </div>
             </div>
-          </div>
+        </div>
 
         <!-- want to register your shop section ends -->
 
-          <!-- Footer container starts -->
-    
-     <div class="footer_container border-top">
-        <div class=" footer2 d-flex pt-4">
-          <div class=" footer3 col-lg-8 col-xl-8 col-md-8 col-sm-12 col-12  d-flex">
-            <div class="col-lg-3  two-images">
-             <div class="pb-3"> <img src="/Images/new color logo 1.png" /></div>
-             <div><img src="/Images/image 2.png" /></div>
-            </div>
-            <div class="col-lg-3  about-footer">
-              <h5>About</h5>
-              <ul>
-                
-                <li>About us</li>
-                <li>Partner with us</li>
-                <li>Earn with us</li>
-                <li>Special Offers</li>
-               
-              </ul>
-            </div>
-            <div class="col-lg-3  earn-with-us-footer">
-              <h5>Earn with us</h5>
-              <ul>
-                
-                <li>Start Earning</li>
-                <li>Partner with us</li>
-                <li>Become a vendor</li>
-                <li>Become an influencer</li>
-               
-              </ul>
-            </div>
-            <div class="col-lg-3  Contact-policies-footer">
-              <h5>Contact & policies</h5>
-              <ul>
-                
-                <li>Contact us</li>
-                <li>Terms and conditions</li>
-                <li>Privacy policy</li>
-                <li>Returns & Exchange policy</li>
-               
-              </ul>
-            </div>
-          </div>
-          <div class="col-lg-4 col-xl-4 col-md-4 col-sm-12 col-12 text-center">
-            <h5>Spread the word!</h5>
-            <img src="/Images/image 3.png"/>
-          </div>
-        </div>
-              
-       </div>
-       <!-- Footer container ends -->
+        <!-- Footer container starts -->
 
-       
+        <div class="footer_container border-top">
+            <div class=" footer2 d-flex pt-4">
+                <div class=" footer3 col-lg-8 col-xl-8 col-md-8 col-sm-12 col-12  d-flex">
+                    <div class="col-lg-3  two-images">
+                        <div class="pb-3"> <img src="/Images/new color logo 1.png" /></div>
+                        <div><img src="/Images/image 2.png" /></div>
+                    </div>
+                    <div class="col-lg-3  about-footer">
+                        <h5>About</h5>
+                        <ul>
+
+                            <li>About us</li>
+                            <li>Partner with us</li>
+                            <li>Earn with us</li>
+                            <li>Special Offers</li>
+
+                        </ul>
+                    </div>
+                    <div class="col-lg-3  earn-with-us-footer">
+                        <h5>Earn with us</h5>
+                        <ul>
+
+                            <li>Start Earning</li>
+                            <li>Partner with us</li>
+                            <li>Become a vendor</li>
+                            <li>Become an influencer</li>
+
+                        </ul>
+                    </div>
+                    <div class="col-lg-3  Contact-policies-footer">
+                        <h5>Contact & policies</h5>
+                        <ul>
+
+                            <li>Contact us</li>
+                            <li>Terms and conditions</li>
+                            <li>Privacy policy</li>
+                            <li>Returns & Exchange policy</li>
+
+                        </ul>
+                    </div>
+                </div>
+                <div class="col-lg-4 col-xl-4 col-md-4 col-sm-12 col-12 text-center">
+                    <h5>Spread the word!</h5>
+                    <img src="/Images/image 3.png" />
+                </div>
+            </div>
+
+        </div>
+        <!-- Footer container ends -->
+
+
 
     </div>
+
+
+    <script>
+        function navigation() {
+            var a = "products tab.html";
+            window.location.href = a;
+        }
+    </script>
+
+
+
 </body>
 
 </html>
