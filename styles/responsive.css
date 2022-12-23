@@ -30,6 +30,20 @@
     padding: 10px 0px !important;
         
     }
+    .dropdowns{
+        flex-direction: column;
+    }
+    
+    .dropdown2 {
+        margin:20px 0px;
+    }
+    .footer2,
+    .footer3{
+        flex-direction: column;
+    }
+    .about-footer{
+        padding-top: 20px;
+    }
 }
 
 /* tab and large mobile screen  */
@@ -66,4 +80,25 @@
     padding: 10px 0px !important;
         
     }
+    .footer2,
+    .footer3{
+        flex-direction: column;
+    }
+    .about-footer{
+        padding-top: 20px;
+    }
+}
+
+
+
+
+/* laptop screen */
+@media(min-width: 768px) and (max-width: 1200px) {
+.dropdown2
+    { 
+        margin-left: 20px;
+
+    }
+
+
 }
