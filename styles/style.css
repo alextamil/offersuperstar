@@ -187,6 +187,7 @@ html{
 
  .edit-profile-list>ul>li{
  list-style-type: none;
+ padding-bottom: 10px;
  
  }
  .edit-profile-list>ul{
