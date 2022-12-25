@@ -125,6 +125,7 @@ html{
 }
 .left-side{
    padding: 10px;
+   height: fit-content;
 }
 .brands{
     border: 2px solid gray;
@@ -194,3 +195,27 @@ html{
     padding: 0px;
 
  }
+
+ /* your wallet page */
+
+ .box1{
+    width: 120px;
+    height: 30px;
+    border-radius: 4px;
+    padding: 0px 27px ;
+    
+ }
+ .pending-side{
+    background-color: #E5E5E5;
+ }
+ .pending-side>ul{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+
+ }
+ .pending-side>ul>li{
+    list-style-type: none;
+ }
+
+ 
