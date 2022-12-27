@@ -195,12 +195,16 @@ html{
     padding: 0px;
 
  }
+ .your-orde-link{
+    text-decoration: none;
+    color: black;
+ }
 
  /* your wallet page */
 
  .box1{
     width: 120px;
-    height: 30px;
+    height: 150px;
     border-radius: 4px;
     padding: 0px 27px ;
     
@@ -218,4 +222,37 @@ html{
     list-style-type: none;
  }
 
+
+ /* product page */
+
+ .box3{
+    width: 140px;
+    height: 30px;
+    border-radius: 4px;
+    padding: 0px 27px ;
+    background-color: #C4C4C4;
+    display: flex;
+    align-items: center;
+    
+ }
+
+ .font-sz{
+    font-size: 10px;
+ }
+ .btn-color{
+    background-color: gray;
+
+ }
+ 
+
+ /* your service booking page */
+
+ .box6{
+    width: 130px;
+    height: 160px;
+    border-radius: 4px;
+    padding: 0px 27px ;
+    background-color: #C4C4C4;
+    
+ }
  
