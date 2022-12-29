@@ -10,7 +10,10 @@ html{
     text-transform: capitalize;
 }
 
+body{
+    background: #FAFBFE;
 
+}
 .main-container{
  background: #FAFBFE !important;
 }
@@ -35,7 +38,7 @@ html{
  }
  .box1{
     width: 100px;
-    height: 29px;
+    height: 165px;
     border-radius: 20px;
     background-color: brown;
     color: white;
@@ -211,6 +214,7 @@ html{
  }
  .pending-side{
     background-color: #E5E5E5;
+    
  }
  .pending-side>ul{
     display: flex;
@@ -220,6 +224,7 @@ html{
  }
  .pending-side>ul>li{
     list-style-type: none;
+    padding-right: 6px;
  }
 
 
@@ -255,4 +260,57 @@ html{
     background-color: #C4C4C4;
     
  }
+
+
+ /* register as user2 */
+
+ .buttons-size{
+    width: 135px;
+ }
+
+ .submit-button{
+    width: 250px;
+ }
+
  
+ /* affiliator program */
+
+ .dashboard-list>ul>li{
+    list-style-type: none;
+    padding:4px;
+ }
+ .dashboard-list>ul{
+    padding: 0px;
+ }
+ .view-box{
+    width: 120px;
+    height: 140px;
+ }
+ .circle{
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    background-color: #C4C4C4;
+    
+ }
+ .margin-size>h6{
+    margin-bottom: 0px;
+ }
+ .total-margin>p{
+    margin-bottom: 0px;
+ }
+ .circle1{
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    background-color:black;
+
+    
+ }
+ .image-circle>p{
+    margin-bottom: 0px;
+ }
+ .total-margin>p{
+    margin-bottom: 0px;
+    
+ }
