@@ -318,3 +318,29 @@ body{
     margin-bottom: 0px;
     
  }
+
+
+ /* create offer */
+
+ .border-doted{
+   border: 2px gray dashed;
+ }
+
+ /* store page */
+
+ .mt-box{
+   width: 425px;
+   height: 150px;
+   background-color: #E5E5E5;
+   
+ }
+
+
+
+ /* list of stores */
+
+ .stores-box{
+   width: 320px;
+   height: 180px;
+   background-color: #E5E5E5;
+ }
