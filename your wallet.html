@@ -115,8 +115,8 @@
                     <div class="col-lg-6 col-xl-6 border px-5 py-4 border-1">
                         <p>Current Balance </p>
                         <h3>Rs. 7500 /-</h3>
-                        <div class="col-12 col-lg-6 col-xl-6  my-4">
-                            <button class="btn btn-dark text-white w-100 py-2 rounded-0">
+                        <div class="col-12 col-lg-7 col-xl-7  my-4">
+                            <button class="btn btn-dark text-white w-100 py-2 rounded-0"  data-bs-toggle="modal" data-bs-target="#exampleModal" >
                                 Make Withdraw Request
                             </button>
                         </div>
@@ -246,6 +246,75 @@
         </div>
         <!-- Footer container ends -->
     </div>
+
+
+
+    <!-- Modal -->
+<div class="modal fade" id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+    <div class="modal-dialog ">
+      <div class="modal-content ">
+        <div class=" d-flex justify-content-between py-4 px-4">
+          <h5 class="modal-title" id="exampleModalLabel">Withdraw Request</h5>
+          <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+        </div>
+
+        <div class="px-5">
+
+            <div class="col-lg-6 col-xl-6 ">
+                <label class="label-font pb-1">
+                    Account number
+                </label>
+                <input type="number" class='form-control rounded-0 border-1 border-dark py-2'
+                    placeholder="Enter your Account number">
+            </div>
+    
+            <div class="col-lg-6 col-xl-6 pt-3 ">
+                <label class="label-font pb-1">
+                    Re-Enter Account number
+                </label>
+                <input type="number" class='form-control rounded-0 border-1 border-dark py-2'
+                    placeholder="Re-Enter your Account number">
+            </div>
+    
+    
+            <div class="col-lg-6 col-xl-6 pt-3 ">
+                <label class="label-font pb-1">
+                    Enter Bank Name
+                </label>
+                <input type="text" class='form-control rounded-0 border-1 border-dark py-2'
+                    placeholder="Enter your  Bank Name">
+            </div>
+    
+    
+            <div class="col-lg-6 col-xl-6 ">
+                <label class="label-font pb-1">
+                    Enter IFSC Code
+                </label>
+                <input type="text" class='form-control rounded-0 border-1 border-dark py-2'
+                    placeholder="Enter your IFSC Code">
+            </div>
+    
+    
+
+    
+    
+            <div class="col-12 collg-6 col-xl-6 my-4">
+                <button class="btn btn-dark text-white w-100 py-2 rounded-0">
+                    Place request
+                </button>
+            </div>
+    
+
+
+        </div>
+       
+
+      
+
+
+      </div>
+    </div>
+  </div>
 
 
     <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.9.2/dist/umd/popper.min.js"
