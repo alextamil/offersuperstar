@@ -126,53 +126,54 @@
 
 
     <!-- icons section starts -->
+   <div class="container">
+    <div class="d-flex my-5   icons-section">
 
-    <div class="d-flex my-5 mx-5 ps-5">
-
-      <div class="col-xl-2 icon-size col-lg-2 col-md-2">
+      <div class="icon-size col-xl-2 ">
         <img src="icons/001-grocery.png"/>
       </div>
 
-      <div class="col-xl-2 col-lg-2 col-md-2 icon-size">
+      <div class=" icon-size  col-xl-2">
         <img src="icons/002-smartphone.png"/>
       </div>
 
-      <div class="col-xl-2 col-lg-2 col-md-2 icon-size">
+      <div class=" icon-size  col-xl-2">
         <img src="icons/003-electronics.png"/>
       </div>
 
-      <div class="col-xl-2 col-lg-2 col-md-2 icon-size">
+      <div class=" icon-size  col-xl-2">
         <img src="icons/004-cosmetics.png"/>
       </div>
 
-      <div class="col-xl-2 col-lg-2 col-md-2 icon-size">
+      <div class=" icon-size  col-xl-2">
         <img src="icons/005-fast-food.png"/>
       </div>
 
-      <div class="col-xl-2 col-lg-2 col-md-2 icon-size">
+      <div class=" icon-size  col-xl-2">
         <img src="icons/006-more.png"/>
       </div>
     </div>
 
+   </div>
+   
 
 
     <!-- icons section ends -->
 
 
     <!-- dropdown section starts -->
-    <div class=" my-5 ps-5">
-      <div class=" dropdown1 col-xl-2 col-md-3 ms-2">
-        
-              <select name="district" id="district-name" class="px-2 w-100">
-                  <option name="district" value="madurai">Madurai</option>
-                  <option name="district" value="Trichy">Trichy</option>
-                  <option name="district" value="Dindigul">Dindigul</option>
-                  <option name="district" value="Chennai">Chennai</option>
-                  <option name="district" value="Coimbature">Coimbature</option>
-              </select>    
-        
-
-      </div>
+    <div class=" col-6 ms-5 mb-4">
+    <form class="d-flex">
+        <input type="text" placeholder="search by location" class="form-control py-3 me-2"/>
+        <button class="btn btn-danger px-4 text-center fs-6">Search</button>
+       
+    </form>
+    <div class="d-flex align-items-center mt-2">
+      <svg xmlns="http://www.w3.org/2000/svg" width="17" height="17" fill="currentColor" class="bi bi-geo-alt-fill text-danger" viewBox="0 0 16 16">
+        <path d="M8 16s6-5.686 6-10A6 6 0 0 0 2 6c0 4.314 6 10 6 10zm0-7a3 3 0 1 1 0-6 3 3 0 0 1 0 6z"/>
+      </svg>
+      <p class="m-0 fs-6 ms-1">use Current location</p>
+    </div>
 
 
      
@@ -191,8 +192,8 @@
         <span>
           <h1 class=" fw-bold"> Popular offers around You </h2>
         </span>
-        <div  class="c0l-lg-2 col-xl-2 col-md-2">
-          <button class="bg-dark btn border-0 border rounded-0 w-100 text-white"> view all</button>
+        <div  >
+          <button class="bg-dark btn btn-dark  text-white px-4 py-2 text-capitalize" onclick=" offerspage()"> view all</button>
         </div>
       </div>
       <div class="row  py-xl-5 py-2">
@@ -240,8 +241,8 @@
               </p>
               <p class="card-text fw-bold">save $ 5,000 <span class="fw-light">MRP: 10,100</span></p>
               <div class="d-flex justify-content-between">
-                <div class="col-10">
-                  <button class="buy-box w-100 py-1">
+                <div class="col-10" ">
+                  <button class=" btn bg-black text-white rounded-5 buy-box w-100 py-1" onclick="Productpage()" >
                     Buy this offer
                   </button>
 
@@ -256,7 +257,7 @@
                   </button>
                 </div>
               </div>
-              <button class="request-box align-items-center py-1 border-0">
+              <button class="  request-box  align-items-center py-1 border-0">
                 Request more offer
               </button>
               <div class="d-flex justify-content-between pt-4">
@@ -335,7 +336,7 @@
               <p class="card-text fw-bold">save $ 5,000 <span class="fw-light">MRP: 10,100</span></p>
               <div class="d-flex justify-content-between">
                 <div class="col-10">
-                  <button class="buy-box w-100 py-1">
+                  <button class=" btn bg-black text-white rounded-5 buy-box w-100 py-1" onclick="Productpage()">
                     Buy this offer
                   </button>
 
@@ -431,7 +432,7 @@
               <p class="card-text fw-bold">save $ 5,000 <span class="fw-light">MRP: 10,100</span></p>
               <div class="d-flex justify-content-between">
                 <div class="col-10">
-                  <button class="buy-box py-1 w-100">
+                  <button class=" btn bg-black text-white rounded-5 buy-box py-1 w-100" onclick="Productpage()">
                     Buy this offer
                   </button>
 
@@ -528,7 +529,7 @@
               <p class="card-text fw-bold">save $ 5,000 <span class="fw-light">MRP: 10,100</span></p>
               <div class="d-flex justify-content-between">
                 <div class="col-10">
-                  <button class="buy-box py-1 w-100">
+                  <button class=" btn bg-black text-white rounded-5 buy-box py-1 w-100" onclick="Productpage()">
                     Buy this offer
                   </button>
 
@@ -598,8 +599,8 @@
         <span>
           <h1 class=" fw-bold"> Newly Added Shops Around You </h2>
         </span>
-        <div class="c0l-lg-2 col-xl-2 col-md-2">
-          <button class="bg-dark btn border-0 border rounded-0 w-100  text-white"> view all</button>
+        <div >
+          <button class="bg-dark btn btn-dark  text-white px-4 py-2 text-capitalize"  onclick="shopspage()"> view all</button>
         </div>
       </div>
       <div class="row  py-xl-5 py-3">
@@ -673,7 +674,7 @@
               </p>
               <div class="d-flex justify-content-between">
                 <div class="col-12">
-                  <button class="buy-box py-1 w-100">
+                  <button class="buy-box py-1 w-100"  onclick="offerstab()">
                     Go to shop
                   </button>
 
@@ -764,7 +765,7 @@
               </p>
               <div class="d-flex justify-content-between">
                 <div class="col-12">
-                  <button class="buy-box py-1 w-100">
+                  <button class="buy-box py-1 w-100"  onclick=" offerstab()">
                     Go to shop
                   </button>
 
@@ -856,7 +857,7 @@
               </p>
               <div class="d-flex justify-content-between">
                 <div class="col-12">
-                  <button class="buy-box py-1 w-100">
+                  <button class="buy-box py-1 w-100"  onclick=" offerstab()">
                     Go to shop
                   </button>
 
@@ -893,8 +894,8 @@
         <span>
           <h1 class=" fw-bold">  Shops </h2>
         </span>
-        <div class="c0l-lg-2 col-xl-2 col-md-2">
-          <button class="bg-dark btn border-0 border rounded-0 w-100  text-white"> view all</button>
+        <div>
+          <button class="bg-dark btn btn-dark  text-white px-4 py-2 text-capitalize"  onclick="shopspage()"> view all</button>
         </div>
       </div>
       <div class="row  py-xl-5 py-3">
@@ -970,7 +971,7 @@
               </p>
               <div class="d-flex justify-content-between" onclick="navigation()">
                 <div class="col-12">
-                  <button class="buy-box border-0 py-1 w-100">
+                  <button class="buy-box border-0 py-1 w-100"  onclick=" offerstab()">
                     Go to shop
                   </button>
   
@@ -1059,9 +1060,9 @@
                   </g>
                 </svg>Other Feature.
               </p>
-              <div class="d-flex justify-content-between" onclick="navigation()">
+              <div class="d-flex justify-content-between" >
                 <div class="col-12">
-                  <button class="buy-box border-0 py-1 w-100">
+                  <button class="buy-box border-0 py-1 w-100"  onclick=" offerstab()">
                     Go to shop
                   </button>
   
@@ -1150,9 +1151,9 @@
                   </g>
                 </svg>Other Feature.
               </p>
-              <div class="d-flex justify-content-between" onclick="navigation()">
+              <div class="d-flex justify-content-between">
                 <div class="col-12">
-                  <button class="buy-box border-0 py-1 w-100">
+                  <button class="buy-box border-0 py-1 w-100"  onclick=" offerstab()">
                     Go to shop
                   </button>
   
@@ -1241,9 +1242,9 @@
                   </g>
                 </svg>Other Feature.
               </p>
-              <div class="d-flex justify-content-between" onclick="navigation()">
+              <div class="d-flex justify-content-between">
                 <div class="col-12">
-                  <button class="buy-box border-0 py-1 w-100">
+                  <button class="buy-box border-0 py-1 w-100"  onclick=" offerstab()">
                     Go to shop
                   </button>
   
@@ -1280,8 +1281,8 @@
         <span>
           <h1 class=" fw-bold">  Services </h2>
         </span>
-        <div class="c0l-lg-2 col-xl-2 col-md-2">
-          <button class="bg-dark btn border-0 border rounded-0 w-100  text-white"> view all</button>
+        <div>
+          <button class="bg-dark btn btn-dark  text-white px-4 py-2 text-capitalize" onclick="services()"> view all</button>
         </div>
       </div>
       <div class="row  py-xl-5 py-3">
@@ -1355,9 +1356,9 @@
                   </g>
                 </svg>Other Feature.
               </p>
-              <div class="d-flex justify-content-between" onclick="navigation()">
+              <div class="d-flex justify-content-between">
                 <div class="col-12">
-                  <button class="buy-box border-0 py-1 w-100">
+                  <button class="buy-box border-0 py-1 w-100" onclick=" servicepage()">
                       Book service
                   </button>
   
@@ -1441,9 +1442,9 @@
                   </g>
                 </svg>Other Feature.
               </p>
-              <div class="d-flex justify-content-between" onclick="navigation()">
+              <div class="d-flex justify-content-between" >
                 <div class="col-12">
-                  <button class="buy-box border-0 py-1 w-100">
+                  <button class="buy-box border-0 py-1 w-100"   onclick=" servicepage()">
                    Book service
                   </button>
   
@@ -1527,9 +1528,9 @@
                   </g>
                 </svg>Other Feature.
               </p>
-              <div class="d-flex justify-content-between" onclick="navigation()">
+              <div class="d-flex justify-content-between" >
                 <div class="col-12">
-                  <button class="buy-box border-0 py-1 w-100">
+                  <button class="buy-box border-0 py-1 w-100"  onclick=" servicepage()">
                       Book service
                   </button>
   
@@ -1652,6 +1653,18 @@
   <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.min.js"
     integrity="sha384-cVKIPhGWiC2Al4u+LWgxfKTRIcfu0JTxR+EQDz/bgldoEyl4H0zUF0QKbrJ0EcQF"
     crossorigin="anonymous"></script>
+    <script src="sripts/main.js"></script>
+
+
+
+    
+<script>
+  function navigation3() {
+      var a = "product page.html";
+      window.location.href = a;
+  }
+</script>
+
 
 
    
