@@ -63,6 +63,13 @@
     .main-content2{
         flex-direction: column;
     }
+    .offerscard-section {
+        flex-direction: column;
+    }
+    .dropdown-section{
+        flex-direction: column;
+        padding: 10px;
+    }
    
 }
 

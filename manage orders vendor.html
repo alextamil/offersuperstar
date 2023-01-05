@@ -1,0 +1,242 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="/styles/style.css" />
+    <link rel="stylesheet" href="/styles/responsive.css" />
+    <link rel="stylesheet" href="/styles/bootstrap.css" />
+</head>
+
+<body>
+    <div class="main-container">
+
+
+
+        <div class="d-flex">
+            <div class="col-xl-2 col-lg-2 col-md-2 dashboard-list pt-5 ps-5 border border-1">
+
+                <ul>
+                    <li><a href="" class="text-decoration-none text-dark ">Dashboard</a> </li>
+                    <li><a href="" class="text-decoration-none text-dark ">Manage branch</a> </li>
+                    <li><a href="" class="text-decoration-none text-dark">Create offer</a></li>
+                    <li><a href="" class="text-decoration-none text-dark">Manage Offers</a></li>
+                    <li><a href="" class="text-decoration-none text-dark  ">Manage Products</a> </li>
+                    <li><a href="" class="text-decoration-none text-dark fw-bold">Manage Orders</a></li>
+                    <li><a href="" class="text-decoration-none text-dark">Settings</a></li>
+                    <li><a href="" class="text-decoration-none text-dark">Alerts</a></li>
+
+                </ul>
+            </div>
+            <div class="col-xl-10 col-lg-10 col-md-10 my-5 mx-4 ">
+
+
+
+                <div class="d-flex justify-content-between mx-4">
+                    <div>
+                        <h1>Manage Orders</h1>
+                    </div>
+                    <div>
+
+                    </div>
+                </div>
+
+
+
+                <div class="d-flex justify-content-between align-items-center mx-4">
+                    <div>
+                        <h3>List of orders</h3>
+                    </div>
+                    <div class="d-flex ">
+                        <div class="dropdown dropdown2 col-xl- col-md- col-lg- mx-4 my-5">
+                            <select name="district" id="district-name" class="px-2 w-100">
+                                <option name="district" value="madurai">Select date</option>
+                                <option name="district" value="madurai">january</option>
+                                <option name="district" value="Trichy">march</option>
+
+                            </select>
+                        </div>
+
+                        <div class="dropdown dropdown2 col-xl- col-md- col-lg- mx-4 my-5">
+                            <select name="district" id="district-name" class="px-2 w-100">
+                                <option name="district" value="madurai">Select Status</option>
+                                <option name="district" value="madurai">basic</option>
+                                <option name="district" value="Trichy">intermediat</option>
+
+                            </select>
+                        </div>
+
+                    </div>
+                </div>
+
+
+                <div class="pt-4 col-xl-12 col-lg-12">
+
+
+                    <table class="table mt-4">
+
+
+                        <tr class=" border border-1">
+
+                            <td>
+                                <div>
+                                    <div class="sm-box"></div>
+                                </div>
+                            </td>
+                            <td>Product Name</td>
+                            <td>23/10/2022 10:00 AM</td>
+                            <td>#1238DF53SD</td>
+                            <td>5 Qty</td>
+                            <td>cod</td>
+                            <td>Rs. 500</td>
+                            <td> <button class="btn btn-dark text-white px-5 py-2 rounded-2">
+                                    Pending
+                                </button></td>
+
+
+                            <td> <button class="btn btn-dark text-white px-3 py-1 rounded-2"   data-bs-toggle="modal" data-bs-target="#exampleModal">
+                                    <svg xmlns="http://www.w3.org/2000/svg" width="26" height="26" fill="currentColor"
+                                        class="bi bi-check" viewBox="0 0 16 16">
+                                        <path
+                                            d="M10.97 4.97a.75.75 0 0 1 1.07 1.05l-3.99 4.99a.75.75 0 0 1-1.08.02L4.324 8.384a.75.75 0 1 1 1.06-1.06l2.094 2.093 3.473-4.425a.267.267 0 0 1 .02-.022z" />
+                                    </svg>dispatch
+
+                                </button></td>
+
+
+                            <td> <button class="btn btn-dark text-white px-3 py-1 rounded-2">
+                                    <svg xmlns="http://www.w3.org/2000/svg" width="26" height="26" fill="currentColor"
+                                        class="bi bi-x" viewBox="0 0 16 16">
+                                        <path
+                                            d="M4.646 4.646a.5.5 0 0 1 .708 0L8 7.293l2.646-2.647a.5.5 0 0 1 .708.708L8.707 8l2.647 2.646a.5.5 0 0 1-.708.708L8 8.707l-2.646 2.647a.5.5 0 0 1-.708-.708L7.293 8 4.646 5.354a.5.5 0 0 1 0-.708z" />
+                                    </svg>Cancel
+
+                                </button></td>
+
+
+
+
+                        </tr>
+                        <tr class=" border border-1">
+
+                            <td>
+                                <div>
+                                    <div class="sm-box"></div>
+                                </div>
+                            </td>
+                            <td>Product Name</td>
+                            <td>23/10/2022 10:00 AM</td>
+                            <td>#1238DF53SD</td>
+                            <td>5 Qty</td>
+                            <td>cod</td>
+                            <td>Rs. 500</td>
+                            <td><button class="btn btn-success text-white px-5  py-2 rounded-2">
+                                    Delivered
+                                </button></td>
+                        </tr>
+
+                        <tr class=" border border-1">
+
+                            <td>
+                                <div>
+                                    <div class="sm-box"></div>
+                                </div>
+                            </td>
+                            <td>Product Name</td>
+                            <td>23/10/2022 10:00 AM</td>
+                            <td>#1238DF53SD</td>
+                            <td>5 Qty</td>
+                            <td>cod</td>
+                            <td>Rs. 500</td>
+                            <td><button class="btn btn-success text-white px-5  py-2 rounded-2">
+                                    Delivered
+                                </button></td>
+
+                        </tr>
+
+
+                        <tr class=" border border-1">
+
+                            <td>
+                                <div>
+                                    <div class="sm-box"></div>
+                                </div>
+                            </td>
+                            <td>Product Name</td>
+                            <td>23/10/2022 10:00 AM</td>
+                            <td>#1238DF53SD</td>
+                            <td>5 Qty</td>
+                            <td>cod</td>
+                            <td>Rs. 500</td>
+                            <td><button class="btn btn-primary text-white px-5  py-2 rounded-2">
+                                    Dispatched
+                                </button></td>
+                        </tr>
+
+
+                    </table>
+
+                </div>
+
+            </div>
+
+
+
+
+
+
+
+
+
+
+        </div>
+
+
+
+
+        <!-- Modal -->
+<div class="modal fade" id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+    <div class="modal-dialog">
+      <div class="modal-content">
+        <div class="modal-header">
+          <h5 class="modal-title" id="exampleModalLabel">Modal title</h5>
+          <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+        </div>
+        <div class="modal-body">
+          ...
+        </div>
+        <div class="modal-footer">
+          <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
+          <button type="button" class="btn btn-primary">Save changes</button>
+        </div>
+      </div>
+    </div>
+  </div>
+
+
+
+
+
+
+
+
+    </div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+</body>
+
+</html>

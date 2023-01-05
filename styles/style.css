@@ -346,6 +346,29 @@ body{
  }
 
 
+ /* dashboard vendor */
+
+ .sm-box{
+   width: 70px;
+   height: 40px;
+   background-color: #C4C4C4;
+ }
+
+ .bg-box{
+   width: 140px;
+   height: 80px;
+   background-color: #C4C4C4;
+
+ }
+
+
+ /* create product vendor */
+
+ .phone-image>img{
+   width: 100%;
+   height: inherit;
+ }
+
 
 
 
