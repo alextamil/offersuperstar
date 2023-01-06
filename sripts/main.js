@@ -1,6 +1,6 @@
 function Productpage(){
 
-    var a = "product page.html";
+    var a = "productpage.html";
     window.location.href = a;
 }
 
@@ -37,5 +37,41 @@ function shopspage(){
 function services(){
 
     var a ="services.html";
+    window.location.href = a;
+}
+
+
+
+function servicecheckoutpage(){
+
+    var a ="servicecheckoutpage.html";
+    window.location.href = a;
+}
+
+
+function storepage(){
+
+    var a ="storepage.html";
+    window.location.href = a;
+}
+
+
+
+function deliverypage(){
+
+    var a ="deliverypage.html";
+    window.location.href = a;
+}
+
+function createbranchvendor(){
+
+    var a ="createbranchvendor.html";
+    window.location.href = a;
+}
+
+
+function createproductvendor(){
+
+    var a ="createproductvendor.html";
     window.location.href = a;
 }

@@ -37,12 +37,13 @@
             <div class="col-xl-2 col-lg-2 col-md-2 dashboard-list pt-5 ps-5 border border-1">
 
                 <ul>
-                    <li><a href="" class="text-decoration-none text-dark ">Dashboard</a> </li>
-                    <li><a href="" class="text-decoration-none text-dark ">Manage branch</a> </li>
-                    <li><a href="" class="text-decoration-none text-dark">Create offer</a></li>
-                    <li><a href="" class="text-decoration-none text-dark fw-bold">Manage Offers</a></li>
-                    <li><a href="" class="text-decoration-none text-dark  ">Manage Products</a> </li>
-                    <li><a href="" class="text-decoration-none text-dark">Manage Orders</a></li>
+                    <li><a href="dashboardvendor.html" class="text-decoration-none text-dark ">Dashboard</a> </li>
+                    <li><a href="managebranchesvendor.html" class="text-decoration-none text-dark  ">Manage branch</a> </li>
+                    <li><a href="createoffer.html" class="text-decoration-none text-dark ">Create offer</a></li>
+                    <li><a href="manageoffersvendoe.html" class="text-decoration-none text-dark  fw-bold">Manage Offers</a></li>
+                    
+                    <li><a href="manageproductsvendor.html" class="text-decoration-none text-dark">Manage products</a></li>
+                    <li><a href="manageordersvendor.html" class="text-decoration-none text-dark">Manage Orders</a></li>
                     <li><a href="" class="text-decoration-none text-dark">Settings</a></li>
                     <li><a href="" class="text-decoration-none text-dark">Alerts</a></li>
 
@@ -101,7 +102,7 @@
                                             <path
                                                 d="M8 4a.5.5 0 0 1 .5.5v3h3a.5.5 0 0 1 0 1h-3v3a.5.5 0 0 1-1 0v-3h-3a.5.5 0 0 1 0-1h3v-3A.5.5 0 0 1 8 4z" />
                                         </svg></button></td>
-                                <td><button class="btn"><svg xmlns="http://www.w3.org/2000/svg" width="22" height="22"
+                                <td><button class="btn" data-bs-toggle="modal" data-bs-target="#exampleModal2"><svg xmlns="http://www.w3.org/2000/svg" width="22" height="22"
                                             fill="currentColor" class="bi bi-trash3 " viewBox="0 0 16 16">
                                             <path
                                                 d="M6.5 1h3a.5.5 0 0 1 .5.5v1H6v-1a.5.5 0 0 1 .5-.5ZM11 2.5v-1A1.5 1.5 0 0 0 9.5 0h-3A1.5 1.5 0 0 0 5 1.5v1H2.506a.58.58 0 0 0-.01 0H1.5a.5.5 0 0 0 0 1h.538l.853 10.66A2 2 0 0 0 4.885 16h6.23a2 2 0 0 0 1.994-1.84l.853-10.66h.538a.5.5 0 0 0 0-1h-.995a.59.59 0 0 0-.01 0H11Zm1.958 1-.846 10.58a1 1 0 0 1-.997.92h-6.23a1 1 0 0 1-.997-.92L3.042 3.5h9.916Zm-7.487 1a.5.5 0 0 1 .528.47l.5 8.5a.5.5 0 0 1-.998.06L5 5.03a.5.5 0 0 1 .47-.53Zm5.058 0a.5.5 0 0 1 .47.53l-.5 8.5a.5.5 0 1 1-.998-.06l.5-8.5a.5.5 0 0 1 .528-.47ZM8 4.5a.5.5 0 0 1 .5.5v8.5a.5.5 0 0 1-1 0V5a.5.5 0 0 1 .5-.5Z" />
@@ -117,7 +118,7 @@
                                 <td>Purchased : 23/10/2022</td>
                                 <td>Coupons : 0</td>
 
-                                <td><button class="btn"><svg xmlns="http://www.w3.org/2000/svg" width="26" height="26"
+                                <td><button class="btn" data-bs-toggle="modal" data-bs-target="#exampleModal"><svg xmlns="http://www.w3.org/2000/svg" width="26" height="26"
                                             fill="currentColor" class="bi bi-plus" viewBox="0 0 16 16">
                                             <path
                                                 d="M8 4a.5.5 0 0 1 .5.5v3h3a.5.5 0 0 1 0 1h-3v3a.5.5 0 0 1-1 0v-3h-3a.5.5 0 0 1 0-1h3v-3A.5.5 0 0 1 8 4z" />
@@ -153,24 +154,8 @@
         </div>
 
 
-        <!-- Modal -->
-        <div class="modal fade" id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
-            <div class="modal-dialog">
-                <div class="modal-content">
-                    <div class="modal-header">
-                        <h5 class="modal-title" id="exampleModalLabel">Modal title</h5>
-                        <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
-                    </div>
-                    <div class="modal-body">
-                        ...
-                    </div>
-                    <div class="modal-footer">
-                        <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
-                        <button type="button" class="btn btn-primary">Save changes</button>
-                    </div>
-                </div>
-            </div>
-        </div>
+       
+       
 
 
 
@@ -180,6 +165,110 @@
 
 
     </div>
+
+
+
+      <!-- Modal -->
+    <div class="modal-dialog modal-lg">
+        <div class="modal fade" id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+            <div class="modal-dialog modal-xl">
+                <div class="modal-content">
+                    <div class=" d-flex justify-content-between my-4 mx-5">
+                        <h4 class="modal-title" id="exampleModalLabel">Purchase additional Customer Coupons</h4>
+                        <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                    </div>
+
+                    <div class="my-5 mx-3 py-3 px-3 border border-1 bg-white">
+                        
+                        <p>Minimum 10 Customers is needed to purchase.</p>
+                        <div class="d-flex my-5">
+                            <div class="col-xl-3 col-lg-3">
+    
+                               
+                            
+    
+    
+    
+    
+    
+                                <div class=" col-12 my-4 pb-3">
+                                    <label class=" pb-1">
+                                        Enter Number of customers.
+                                    </label>
+                                    <input type="text" class='form-control rounded-0 border-1 border-dark py-2'
+                                        placeholder="20 ">
+                                </div>
+    
+                            </div>
+                            <div class="col-xl-4 col-lg-4   ms-5">
+    
+                                <div class="col-12 border border-1 px-3 py-3">
+                                    <h6>Customers - 10</h6>
+                                    <h6>Price : 20 Rs / Customer.</h6>
+                                    <h6> Total Disount : 160 Rs ( 90% )</h6>
+                                    <h5 class="pt-3">Total Amount : 200 Rs.</h5>
+        
+    
+    
+                                </div>
+    
+                                
+                                <div class="col-xl-8 col-7 my-4">
+                                    <button class="btn btn-dark text-white w-100 py-2 rounded-2">
+                                        Purchase Customer Coupon
+                                    </button>
+                                </div>
+                               
+    
+    
+    
+                               
+    
+                            </div>
+                            <div class="col-xl-4 col-lg-4 px-5">
+                                <h5>Price Structure</h5>
+                                <h6>Above 50 Customers, coupon price is 18 Rs.</h6>
+    
+                                <h6>Above 100 Customers, coupon price is 16 Rs.</h6>
+                            </div>
+                        </div>
+                    </div>
+
+
+                </div>
+            </div>
+        </div>
+
+
+
+    </div>
+    
+    
+<!-- Modal 2-->
+<div class="modal fade" id="exampleModal2" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+    <div class="modal-dialog">
+      <div class="modal-content">
+        <div class=" d-flex justify-content-between my-4 mx-5">
+            <h4 class="modal-title" id="exampleModalLabel">Delete Offer </h4>
+            <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+        </div>
+        
+      </div>
+    </div>
+  </div>
+
+    
+  <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.9.2/dist/umd/popper.min.js"
+  integrity="sha384-IQsoLXl5PILFhosVNubq5LC7Qb9DXgDA9i+tQ8Zj3iwWAwPtgFTxbJ8NT4GN1R8p"
+  crossorigin="anonymous"></script>
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.min.js"
+  integrity="sha384-cVKIPhGWiC2Al4u+LWgxfKTRIcfu0JTxR+EQDz/bgldoEyl4H0zUF0QKbrJ0EcQF"
+  crossorigin="anonymous"></script>
+  <script src="sripts/main.js"></script>
+
+
+
+
 </body>
 
 </html>
