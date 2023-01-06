@@ -374,4 +374,12 @@ body{
    place-items: center;
 }
 
- 
+
+
+
+/* how to earn page */
+
+
+ .referearn_list>li{
+  padding: 10px 0;
+ }

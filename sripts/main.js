@@ -88,3 +88,26 @@ function dashboardvendor(){
     var a ="dashboardvendor.html";
     window.location.href = a;
 }
+
+
+function startearn(){
+
+    var a ="startearn.html";
+    window.location.href = a;
+}
+
+function registerasuser1(){
+
+    var a ="registerasuser1.html";
+    window.location.href = a;
+}
+
+
+
+function registerasusertwo(){
+
+    var b ="registerasuser2.html";
+    window.location.href = b;
+}
+
+
