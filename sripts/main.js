@@ -75,3 +75,16 @@ function createproductvendor(){
     var a ="createproductvendor.html";
     window.location.href = a;
 }
+
+
+function affiliatorprogram(){
+
+    var a ="affiliatorprogram.html";
+    window.location.href = a;
+}
+
+function dashboardvendor(){
+
+    var a ="dashboardvendor.html";
+    window.location.href = a;
+}
