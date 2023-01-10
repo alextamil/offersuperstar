@@ -63,19 +63,189 @@
     .main-content2{
         flex-direction: column;
     }
-    .offerscard-section {
-        flex-direction: column;
-    }
+
     .dropdown-section{
         flex-direction: column;
         padding: 10px;
     }
+    .button-section{
+        flex-direction: column;
+        margin-left: 0px;
+
+    }
+    .shop-products-btn{
+     margin-top: 14px;
+    }
+    .offerscard-section1{
+        flex-direction: column;
+    }
+    .products-dropdown,
+    .products-card-section,
+    .products-main-section,
+    .products-two-btn{
+        flex-direction: column;
+    }
+    
+    .close-btn{
+        display: block;
+       margin: 0; 
+       height: fit-content;
+       position: absolute;
+      top: 4px;
+       right: 5px;
+
+    }
+  
+    .first-box{
+        position: relative;
+    }
+    .Addcart-image{
+        width: 100%;
+        margin: 3px;
+    }
+    .coupons-image{
+        width: 100%;
+        margin: 0px;
+    }
+    .coupons-content{
+        position: relative;
+    }
+    .close-btn{
+        position:absolute;
+
+    }
+    .edit-profile{
+        flex-direction: column;
+    }
+    .home-section{
+        flex-direction: column;
+        padding: 20px;
+    }
+    .work-section{
+        flex-direction: column;
+        padding: 20px;
+    }
+    .main-orders{
+        flex-direction: column;
+    }
+    .adiddas-box1,
+    .adiddas-box2{
+        flex-direction: column;
+
+    }
+    .adidas-image{
+        width: 100%;
+        margin: 0px;
+    }
+    .manage-main-content{
+        flex-direction: column;
+
+
+    }
+    .home-content,
+    .work-content{
+        flex-direction: column;
+
+    }
+    .wallet-main-content{
+        flex-direction: column;
+
+    }
+    .balance-boxes{
+        flex-direction: column;
+
+    }
+    .pending-side>ul{
+        flex-direction: column;
+       
+
+    }
+    .pending-side>ul>li{
+        padding-top: 20px;
+    }
+    .image-with-addidas{
+        flex-direction: column;
+
+    }
+    .haircut-main-section{
+        flex-direction: column;
+
+    }
+    .booknow-share-btn{
+        flex-direction: column-reverse;
+
+    }
+    .checkout-main-section{
+        flex-direction: column;
+
+    }
+    .booking-main-section{
+        flex-direction: column;
+
+    }
+    .haircut-slot-content{
+        flex-direction: column;
+        
+    }
+    .haircut-image{
+        width: 100%;
+        margin: 0px;
+    }
+    .balance-request-section{
+        flex-direction: column;
+    }
+    .referal-code-content{
+        flex-direction: column;
+
+    }
+    .dropdown2-section{
+        flex-direction: column;
+
+    }
+    .top-brand-maincontent{
+        flex-direction: column;
+
+    }
+    .shops-section{
+        flex-direction: column;
+    }
+    .history-section{
+        flex-direction: column;
+
+    }
+    .wallet-main-section{
+        flex-direction: column;
+
+    }
+    .refferal-main-content{
+        flex-direction: column;
+
+
+    }
+    .refferal-code-section{
+        flex-direction: column;
+
+    }
+    .plans-section{
+        flex-direction: column;
+    }
+    .balance-list-section{
+        flex-direction: column;
+
+    }
+
+
+    
+
+
+
+
    
 }
 
 /* tab and large mobile screen  */
 
-@media(min-width: 425px) and (max-width: 768px) {
+@media(min-width: 425px) and (max-width: 767px) {
     .dropdown-box{
         padding: 15px 0px 15px 18px;
     
@@ -122,6 +292,152 @@
     .main-content2{
         flex-direction: column;
     }
+    .dropdown-section{
+        flex-direction: column;
+        padding: 10px;
+    }
+    .offerscard-section1 {
+        flex-direction: column;
+    }
+    /* .offerscard-section {
+        flex-direction: column;
+    } */
+    .dropdown3{
+        margin-top: 15px;
+    }
+    
+    .products-dropdown,
+    .products-card-section,
+    .products-main-section,
+    .products-two-btn{
+        flex-direction: column;
+    }
+    .box-with-adidas{
+        flex-direction: column;
+        position: relative;
+    }
+    .close-btn{
+        position:absolute;
+        right: 28px;
+
+    }
+   .Addcart-image{
+    width: 100%;
+    margin: 0px;
+    
+   }
+   .summary-list{
+    display: flex;
+   }
+   .coupons-image{
+    margin: 0px;
+    width: 100%;
+   }
+   .first-box{
+    flex-direction: column;
+   }
+   .want-to-earn{
+    flex-direction: column;
+   }
+   .edit-profile{
+    flex-direction: column;
+}
+.home-section{
+    flex-direction: column;
+    padding: 20px;
+}
+.work-section{
+    flex-direction: column;
+    padding: 20px;
+}
+.main-orders{
+    flex-direction: column;
+}
+.adiddas-box1,
+.adiddas-box2{
+        flex-direction: column;
+
+    }
+    .adidas-image{
+        width: 250px;
+    }
+    .wallet-main-content{
+        flex-direction: column;
+
+    }
+    .balance-boxes{
+        flex-direction: column;
+
+    }
+    .image-with-addidas{
+        flex-direction: column;
+
+    }
+    .haircut-main-section{
+        flex-direction: column;
+
+    }
+    .booknow-share-btn{
+        flex-direction: column-reverse;
+
+    }
+    .checkout-main-section{
+        flex-direction: column;
+
+    }
+    .booking-main-section{
+        flex-direction: column;
+
+    }
+    .haircut-slot-content{
+        flex-direction: column;
+        
+    }
+    .haircut-image{
+        width: 100%;
+        margin: 0px;
+    }
+    .dropdown2-section{
+        flex-direction: column;
+
+    }
+    .top-brand-maincontent{
+        flex-direction: column;
+
+    }
+    .shops-section{
+        flex-direction: column;
+    }
+    .history-section{
+        flex-direction: column;
+
+    }
+    .wal-drop{
+        margin-top: 20px;
+
+    }
+    .wallet-main-section{
+        flex-direction: column;
+
+    }
+    .refferal-main-content{
+        flex-direction: column;
+
+
+    }
+    .refferal-code-section{
+        flex-direction: column;
+
+    }
+    .plans-section{
+        flex-direction: column;
+    }
+    .balance-list-section{
+        flex-direction: column;
+
+    }
+    
+   
     
     
 }
@@ -130,13 +446,93 @@
 
 
 /* laptop screen */
-@media(min-width: 768px) and (max-width: 1200px) {
+@media(min-width: 768px) and (max-width: 1023px) {
 .dropdown2
     { 
         margin-left: 20px;
 
     }
+
+    offerscard-section1 {
+        flex-direction: column;
+    }
+
+    .button-section{
+        display:flex;
+    }
+    .cart-addidas{
+        flex-direction:column;
+    }
+    first-box,
+    second-box{
+        flex-direction: column;
+    }
+    .checkout-list{
+        flex-direction: column;
+    }
+    .edit-name-list{
+        padding-left: 20px;
+    }
+    .main-orders{
+        flex-direction: column;
+    }
     
+    
+    .booknow-share-btn{
+        flex-direction: column-reverse;
+
+    }
+    .deliver-share-btn{
+        flex-direction: column;
+
+    }
+    .checkout-main-section{
+        flex-direction: column;
+
+    }
+    .booking-main-section{
+        flex-direction: column;
+
+    }
+    .balance-request-section{
+        flex-direction: column;
+        margin-left: 25px;
+    }
+    
+    .top-brand-maincontent{
+        flex-direction: column;
+
+    }
+    .font-siz{
+        font-size: 15px;
+    }
+    
+    
+    
+     
+    
+ 
 
 
 }
+
+
+@media(min-width: 1025px) and (max-width: 1400px) {
+
+    dropdown2
+    { 
+        margin-left: 20px;
+
+    }
+    .cart-addidas{
+        display: flex;
+    }
+    .edit-btn,
+    .work-btn{
+    margin: 20px;
+
+    }
+
+}
+
+

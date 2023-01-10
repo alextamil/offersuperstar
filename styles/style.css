@@ -43,7 +43,14 @@ body{
     background-color: brown;
     color: white;
  }
- 
+ .Addcart-image{
+   width: 120px;
+   height: 150px;
+   border-radius: 4px;
+   padding: 0px 27px;
+   background-color: #a0a0a0;
+   margin: 24px;
+ }
  .upto>h3{
     font-size: 18px;
     
@@ -207,6 +214,22 @@ body{
     color: black;
  }
 
+ /* your orders */
+
+.adidas-image{
+
+   width: 120px;
+   height: 150px;
+   border-radius: 4px;
+   padding: 0px 27px ;
+   margin: 25px;
+   background-color: #a0a0a0;
+
+}
+
+
+
+
  /* your wallet page */
 
  .box1{
@@ -255,6 +278,16 @@ body{
  
 
  /* your service booking page */
+ .haircut-image{
+   width: 120px;
+   height: 150px;
+   border-radius: 4px;
+   padding: 0px 27px ;
+   background-color: #a0a0a0;
+   margin: 25px;
+   
+   
+ }
 
  .box6{
     width: 130px;
