@@ -233,6 +233,59 @@
         flex-direction: column;
 
     }
+    .recent-sale-section{
+        flex-direction: column;
+
+    }
+    .stores-main-section{
+        flex-direction: column;
+
+    }
+    .coupons-section{
+        flex-direction: column;
+
+    }
+    .image-digital-section{
+        flex-direction: column;
+    }
+    .digital-section{
+        flex-direction: column;
+
+    }
+    .stores-box {
+        width: 100%;
+    }
+    .store-coupon-btn{
+        flex-direction: column;
+        
+    }
+    .upgrade-section{
+        flex-direction: column;
+    }
+    .buy-customer-section{
+        flex-direction: column;
+
+    }
+    .create-offer-section{
+        flex-direction: column;
+
+    }
+    .preview-section{
+        flex-direction: column;
+
+    }
+    .enter-discount-section{
+        flex-direction: column;
+    }
+    .enterno-section{
+        flex-direction: column;
+
+    }
+    .discount-upto-section{
+        flex-direction: column;
+
+    }
+
 
 
     
@@ -436,6 +489,66 @@
         flex-direction: column;
 
     }
+    .stores-main-section{
+        flex-direction: column;
+
+    }
+    .coupons-section{
+        flex-direction: column;
+
+    }
+    .image-digital-section{
+        flex-direction: column;
+    }
+    .digital-section{
+        flex-direction: column;
+
+    }
+    .stores-box {
+        width: 100%;
+    }
+    .store-coupon-btn{
+        flex-direction: column;
+        
+    }
+    .preview-section{
+        flex-direction: column;
+
+    }
+    .enterno-section{
+        flex-direction: column;
+
+    }
+    .enter-discount-section{
+        flex-direction: column;
+    }
+    .discount-upto-section{
+        flex-direction: column;
+
+    }
+    .create-offer-section{
+        flex-direction: column;
+
+    }
+    .upgrade-section{
+        flex-direction: column;
+    }
+    .buy-customer-section{
+        flex-direction: column;
+
+    }
+    .create-offer-section{
+        flex-direction: column;
+
+    }
+    
+    
+    .enterno-section{
+        flex-direction: column;
+
+    }
+    
+
     
    
     
@@ -506,7 +619,24 @@
     .font-siz{
         font-size: 15px;
     }
-    
+    .store-coupon-btn{
+        flex-direction: column;
+        
+    }   
+    .image-digital-section{
+        flex-direction: column;
+    }
+    .digital-section{
+        flex-direction: column;
+
+    } 
+    .stores-box {
+        width: 100%;
+    }
+    .preview-section{
+        flex-direction: column;
+
+    }
     
     
      
