@@ -285,6 +285,155 @@
         flex-direction: column;
 
     }
+    .wallet2-main-section{
+        flex-direction: column;
+    }
+    .coupons-affiliate-section{
+        flex-direction: column;
+
+    }
+    .fillup-section{
+        flex-direction: column;
+
+    }
+    .product-sevice-section{
+         flex-direction: column;
+
+
+    }
+   
+    .tabl-scrol{
+        overflow-x: scroll;
+    }
+    .selling-section{
+        flex-direction: column;
+    }
+    .selling-image-section{
+        flex-direction: column;
+    }
+    .branch-main-section{
+        flex-direction: column;
+
+    }
+    .branch-btn{
+        flex-direction: column;
+
+    }
+    .create-branch-section{
+        flex-direction: column;
+    }
+    .create-card-section{
+        flex-direction: column;
+    }
+    .upto-section{
+        flex-direction: column;
+
+    }
+    .offer-duration-section{
+        flex-direction: column;
+
+    }
+    .buy-get-section{
+        flex-direction: column;
+
+    }
+    .manage-product-section{
+        flex-direction: column;
+    }
+    .product-tabl-scrol{
+        overflow-x: scroll;
+    }
+    .manage-product-btn{
+        flex-direction: column;
+    }
+    .showing-products-section{
+        flex-direction: column;
+    }
+    .showing-product-dropdown{
+        flex-direction: column;
+    }
+    .manage-service-section{
+        flex-direction: column;
+    }
+    .manage-servive-scrol{
+        overflow-x: scroll;
+    }
+    .manage-service-btn{
+        flex-direction: column;
+
+    }
+    .create-product-section{
+        flex-direction: column;
+
+    }
+    .image-field-section{
+        flex-direction: column;
+    }
+    .create-service-section{
+        flex-direction: column;
+    }
+    .image-field{
+        flex-direction: column;
+    }
+    .manage-orders-section{
+        flex-direction: column;
+    }
+    .list-order-section{
+        flex-direction: column;
+    }
+    .list-dropdown{
+        flex-direction: column;
+    }
+    .manage-table-scrol{
+        overflow-x: scroll;
+    }
+    .manage-vendor-section{
+        flex-direction: column;
+
+    }
+    .dropdownlast-section{
+        flex-direction: column;
+
+    }
+    .offer-table-scrol{
+        overflow-x: scroll;
+    }
+    .storepage-main-section{
+        flex-direction: column;
+        
+
+    }
+    .image-cloth-section{
+        flex-direction: column-reverse
+
+    }
+    .coupon-table-scrol{
+        overflow-x: scroll;
+    }
+    .request-section{
+        flex-direction: column;
+    }
+    .mt-box{
+        width: 100%;
+    }
+    .delivery-main-section{
+        flex-direction: column;
+
+    }
+    .id-scrol{
+        overflow-x: scroll;
+    }
+    .pickup-return-btn{
+        flex-direction: column;
+    }
+    .basic-vendor-section{
+        flex-direction: column;
+
+    }
+    .basic-main-section{
+        flex-direction: column;
+    }
+
 
 
 
@@ -541,19 +690,164 @@
         flex-direction: column;
 
     }
-    
-    
     .enterno-section{
         flex-direction: column;
 
     }
+    .wallet2-main-section{
+        flex-direction: column;
+    }
+    .coupons-affiliate-section{
+        flex-direction: column;
+
+    }
+     .fillup-section{
+        flex-direction: column;
+
+    }
+    .product-sevice-section{
+        flex-direction: column;
+
+
+   }
+  
+   .tabl-scrol{
+       overflow-x: scroll;
+   }
+   .selling-section{
+       flex-direction: column;
+   }
+   .selling-image-section{
+       flex-direction: column;
+   }
+   .branch-main-section{
+    flex-direction: column;
+
+}
+.branch-btn{
+    flex-direction: column;
+
+}
+.create-branch-section{
+    flex-direction: column;
+}
+.create-card-section{
+    flex-direction: column;
+}
+.offer-duration-section{
+    flex-direction: column;
+
+}
+.buy-get-section{
+    flex-direction: column;
+
+}
+.manage-product-section{
+    flex-direction: column;
+}
+.product-tabl-scrol{
+    overflow-x: scroll;
+}
+.manage-product-btn{
+    flex-direction: column;
+}
+.showing-products-section{
+    flex-direction: column;
+}
+.showing-product-dropdown{
+    flex-direction: column;
+}
+.manage-service-section{
+    flex-direction: column;
+}
+.manage-servive-scrol{
+    overflow-x: scroll;
+}
+.manage-service-btn{
+    flex-direction: column;
+
+}
+.create-product-section{
+    flex-direction: column;
+
+}
+.image-field-section{
+    flex-direction: column;
+}
+.create-service-section{
+    flex-direction: column;
+}
+.image-field{
+    flex-direction: column;
+}
+.list-order-section{
+    flex-direction: column;
+}
+.list-dropdown{
+    flex-direction: column;
+}
+.manage-table-scrol{
+    overflow-x: scroll;
+}
+.manage-orders-section{
+    flex-direction: column;
+}
+.manage-vendor-section{
+    flex-direction: column;
+
+}
+.dropdownlast-section{
+    flex-direction: column;
+
+}
+.offer-table-scrol{
+    overflow-x: scroll;
+}
+.storepage-main-section{
+    flex-direction: column;
     
+
+}
+.image-cloth-section{
+    flex-direction: column-reverse
+
+}
+.coupon-table-scrol{
+    overflow-x: scroll;
+}
+.request-section{
+    flex-direction: column;
+}
+.mt-box{
+    width: 100%;
+}
+.delivery-main-section{
+    flex-direction: column;
+
+}
+.id-scrol{
+    overflow-x: scroll;
+}
+.pickup-return-btn{
+    flex-direction: column;
+}
+.basic-vendor-section{
+    flex-direction: column;
+
+}
+.basic-main-section{
+    flex-direction: column;
+}
+
+  
 
     
    
     
     
 }
+
+
 
 
 
@@ -637,6 +931,59 @@
         flex-direction: column;
 
     }
+    .upgrade-section{
+        flex-direction: column;
+    }
+    .buy-customer-section{
+        flex-direction: column;
+
+    }
+     .fillup-section{
+        flex-direction: column;
+
+    }
+    .tabl-scrol{
+        overflow-x: scroll;
+    }
+    .selling-section{
+        flex-direction: column;
+    }
+    .selling-image-section{
+        flex-direction: column;
+    }
+    .bg-box{
+        width: 100%;
+        height: 140px;
+    }
+    .create-card-section{
+        flex-direction: column;
+    }
+    .enter-discount-section{
+        flex-direction: column;
+    }
+    .product-tabl-scrol{
+        overflow-x: scroll;
+    }
+    .manage-servive-scrol{
+        overflow-x: scroll;
+    }
+    .manage-table-scrol{
+        overflow-x: scroll;
+    }
+    .offer-table-scrol{
+        overflow-x: scroll;
+    }
+    .coupon-table-scrol{
+        overflow-x: scroll;
+    }
+    .request-section{
+        flex-direction: column;
+    }
+    .basic-vendor-section{
+        flex-direction: column;
+
+    }
+      
     
     
      
