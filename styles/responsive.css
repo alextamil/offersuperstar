@@ -849,6 +849,9 @@
     flex-direction: column;
 
 }
+.icons-section{
+    overflow-x: scroll;
+}
 
 
   
@@ -994,6 +997,9 @@
     .basic-vendor-section{
         flex-direction: column;
 
+    }
+    .icons-section{
+        overflow-x: scroll;
     }
       
     
