@@ -111,3 +111,8 @@ function registerasusertwo(){
 }
 
 
+function postoffer(){
+
+    var b ="postoffer.html";
+    window.location.href = b;
+}

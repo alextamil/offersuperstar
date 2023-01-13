@@ -433,6 +433,10 @@
     .basic-main-section{
         flex-direction: column;
     }
+    .location-section{
+        flex-direction: column;
+
+    }
 
 
 
@@ -838,6 +842,11 @@
 .basic-main-section{
     flex-direction: column;
 }
+.location-section{
+    flex-direction: column;
+
+}
+
 
   
 
