@@ -37,6 +37,9 @@
     .dropdown2 {
         margin:20px 0px;
     }
+    .icons-section{
+        overflow-x: scroll;
+    }
     .footer2,
     .footer3{
         flex-direction: column;
