@@ -10,45 +10,97 @@
 
 <body>
     <div class="main-container">
-        <!-- head section starts -->
-        <div class="head py-4 border border-1">
-            <div class="d-flex justify-content-between px-4 ">
-                <div>
-                    <h2>Offer Supserstar</h2>
-                </div>
-                <div>
-                    <button class="btn">
-                        <svg width="26" height="26" viewBox="0 0 26 26" fill="none" xmlns="http://www.w3.org/2000/svg">
-                            <path fill-rule="evenodd" clip-rule="evenodd"
-                                d="M22.5572 19.604C18.8316 18.7438 15.3639 17.9898 17.043 14.8178C22.1564 5.16317 18.3983 0 13 0C7.49454 0 3.8307 5.36142 8.95704 14.8178C10.6871 18.0083 7.08829 18.7623 3.44287 19.604C0.113788 20.3732 -0.0107951 22.0263 3.8238e-05 24.9167L0.00437157 26H25.9935L25.9979 24.9503C26.0109 22.0383 25.8982 20.3764 22.5572 19.604Z"
-                                fill="black" />
-                        </svg>
-
-                    </button>
-                </div>
+         <!-- Navigation bar starts -->
+    <div class="header">
+        <nav class="navbar navbar-expand-xl  navbar-light bg-white  py-xl-3  py-1 px-xl-3 px-lg-3 px-md-3 px-sm-2 py-2 border border-end">
+          <div class="container-fluid">
+            <a class="navbar-brand fw-bold fs-2" href="#">
+              <img src="/Images/new color logo 1.png" />
+            </a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
+              data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false"
+              aria-label="Toggle navigation">
+              <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse nav-section navbar-collapse" id="navbarSupportedContent">
+              <ul class="navbar-nav me-auto mb-2 mb-lg-0 text-dark align-items-center">
+                <li class="nav-item">
+                  <a class="nav-link active   " aria-current="page" href="Index.html">Home</a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link " href="offer.html">Offers</a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link" href="shopspage.html">Stores</a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link" href="servicesmain.html">Services</a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link" href="startearn.html">Start Earning</a>
+                </li>
+               
+                <li class="nav-item">
+                  <a class="nav-link text-black fw-bold" href="postoffer.html">Post offer</a>
+                </li>
+  
+  
+                <li class="nav-item">
+                  <div class="mb-xl-0 mb-2">
+                    <button class="bg-primary btn btn-primary py-2 w-100 text-white" onclick="registerasuser1()"> Become
+                      an Affiliator</button>
+                  </div>
+                </li>
+                <li class="nav-item">
+                  <div class="ms-xl-3 ms-0">
+                    <button class="bg-danger btn btn-danger  py-2 w-100  text-white"  onclick=" registerasvendor()"> Become a
+                      vendor</button>
+                  </div>
+                </li>
+  
+               
+  
+  
+  
+                <li class="nav-item">
+                  <a class="nav-link" href="edit profile.html">
+                    <svg width="28" height="28" viewBox="0 0 28 28" fill="none" xmlns="http://www.w3.org/2000/svg">
+                      <path
+                        d="M14 0C6.272 0 0 6.272 0 14C0 21.728 6.272 28 14 28C21.728 28 28 21.728 28 14C28 6.272 21.728 0 14 0ZM14 4.2C16.324 4.2 18.2 6.076 18.2 8.4C18.2 10.724 16.324 12.6 14 12.6C11.676 12.6 9.8 10.724 9.8 8.4C9.8 6.076 11.676 4.2 14 4.2ZM14 24.08C10.5 24.08 7.406 22.288 5.6 19.572C5.642 16.786 11.2 15.26 14 15.26C16.786 15.26 22.358 16.786 22.4 19.572C20.594 22.288 17.5 24.08 14 24.08Z"
+                        fill="#323232" />
+                    </svg>
+                  </a>
+  
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link" href="products cart page.html">
+                    <svg width="28" height="28" viewBox="0 0 28 28" fill="none" xmlns="http://www.w3.org/2000/svg">
+                      <path
+                        d="M8.4 22.4C6.86 22.4 5.614 23.66 5.614 25.2C5.614 26.74 6.86 28 8.4 28C9.94 28 11.2 26.74 11.2 25.2C11.2 23.66 9.94 22.4 8.4 22.4ZM0 0V2.8H2.8L7.84 13.426L5.95 16.856C5.726 17.248 5.6 17.71 5.6 18.2C5.6 19.74 6.86 21 8.4 21H25.2V18.2H8.988C8.792 18.2 8.638 18.046 8.638 17.85L8.68 17.682L9.94 15.4H20.37C21.42 15.4 22.344 14.826 22.82 13.958L27.832 4.872C27.944 4.676 28 4.438 28 4.2C28 3.43 27.37 2.8 26.6 2.8H5.894L4.578 0H0ZM22.4 22.4C20.86 22.4 19.614 23.66 19.614 25.2C19.614 26.74 20.86 28 22.4 28C23.94 28 25.2 26.74 25.2 25.2C25.2 23.66 23.94 22.4 22.4 22.4Z"
+                        fill="#323232" />
+                    </svg>
+  
+                  </a>
+  
+                </li>
+  
+  
+              </ul>
+  
+  
+  
             </div>
-        </div>
+          </div>
+        </nav>
+  
+      </div>
+      <!-- navigation bar ends -->
 
-        <!-- head section ends -->
 
 
-
-        <div class="d-flex create-offer-section">
-            <div class="col-xl-2 col-lg-2 col-md-3 dashboard-list pt-5 ps-5 border border-1">
-
-                <ul>
-                    <li><a href="" class="text-decoration-none text-dark ">Dashboard</a> </li>
-                    <li><a href="" class="text-decoration-none text-dark ">Manage branch</a> </li>
-                    <li><a href="" class="text-decoration-none text-dark fw-bold">Create offer</a></li>
-                    <li><a href="" class="text-decoration-none text-dark">Manage Offers</a></li>
-                    <li><a href="" class="text-decoration-none text-dark ">Manage Products</a> </li>
-                    <li><a href="" class="text-decoration-none text-dark">Manage Orders</a></li>
-                    <li><a href="" class="text-decoration-none text-dark">Settings</a></li>
-                    <li><a href="" class="text-decoration-none text-dark">Alerts</a></li>
-
-                </ul>
-            </div>
-            <div class="col-xl-9 col-lg-9 col-md-8 my-5 mx-4 ">
+        <div class=" create-offer-section">
+           
+            <div class="col-xl-12 col-lg-12 col-md-12 my-5 mx-4 ">
 
 
 

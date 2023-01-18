@@ -123,3 +123,14 @@ function productscartpage(){
     var b ="products cart page.html";
     window.location.href = b;
 }
+
+
+function AffiliatorDashboard() {
+      var a = 'affiliatorprogram.html';   
+    window.location.href = a;
+}
+
+function registerasvendor() {
+    var a = 'registerasvendor.html';   
+  window.location.href = a;
+}
