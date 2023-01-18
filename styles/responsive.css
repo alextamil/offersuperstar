@@ -52,7 +52,8 @@
         flex-direction: column;
        
     }
-    .checkout-list{
+    .checkout-list,
+    .offerscard-section1 {
         flex-direction: column;
     }
     .image-with-addidas,
@@ -104,7 +105,7 @@
     }
     .Addcart-image{
         width: 100%;
-        margin: 3px;
+        margin: 2px;
     }
     .coupons-image{
         width: 100%;
@@ -491,7 +492,8 @@
     .about-footer{
         padding-top: 20px;
     }
-    .cart-addidas{
+    .cart-addidas,
+    .offerscard-section1 {
         flex-direction: column;
     }
     .checkout-list{
@@ -852,6 +854,16 @@
 .icons-section{
     overflow-x: scroll;
 }
+.manage-main-content{
+    flex-direction: column;
+
+
+}
+.home-content,
+    .work-content{
+        flex-direction: column;
+
+    }
 
 
   
@@ -875,7 +887,7 @@
 
     }
 
-    offerscard-section1 {
+    .offerscard-section1 {
         flex-direction: column;
     }
 
@@ -888,6 +900,9 @@
     first-box,
     second-box{
         flex-direction: column;
+    }
+    .footer3{
+        flex-wrap: wrap;
     }
     .checkout-list{
         flex-direction: column;
@@ -1001,6 +1016,11 @@
     .icons-section{
         overflow-x: scroll;
     }
+    .nav-item>.nav-link{
+        
+        padding: 10px 0px !important;
+            
+        }
       
     
     
@@ -1012,7 +1032,7 @@
 }
 
 
-@media(min-width: 1025px) and (max-width: 1400px) {
+@media(min-width: 1024px) and (max-width: 1400px) {
 
     dropdown2
     { 
@@ -1027,7 +1047,19 @@
     margin: 20px;
 
     }
+    .icons-section{
+        overflow-x: scroll;
+    }
+    .nav-item>.nav-link{
+        
+        padding: 10px 0px !important;
+            
+    }
+    .nav-section>ul>li{
+        padding-right: 18px;
+    }
 
+         
 }
 
 

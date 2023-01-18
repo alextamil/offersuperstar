@@ -116,3 +116,10 @@ function postoffer(){
     var b ="postoffer.html";
     window.location.href = b;
 }
+
+
+function productscartpage(){
+
+    var b ="products cart page.html";
+    window.location.href = b;
+}
