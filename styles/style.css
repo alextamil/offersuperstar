@@ -136,6 +136,30 @@ color: white;
    width: 70px;
    height: 70px;
 }
+h6{
+   margin: 0 !important;
+}
+.Description_section>div{
+   padding: 10px;
+}
+.Description_section>div:nth-child(even) {
+  background-color: #e6e6e6;
+ 
+}
+.Description_section>div>div:nth-child(odd)>h6{
+   font-weight: bold;
+}
+.link-app{
+   width: 195px;
+   height: 55px;
+   
+  
+}
+.link-app-image>img{
+   width: 42px;
+   height: 42px;
+   border-radius: 50%;
+}
 
 
 /* offer-page */
