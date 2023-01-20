@@ -1,877 +1,1097 @@
 @media(min-width: 320px) and (max-width: 425px) {
-    .dropdown-box{
+    .dropdown-box {
         padding: 15px 0px 15px 18px;
-    
+
     }
-    .card_container>div:nth-child(1)
-  {
+
+    .card_container>div:nth-child(1) {
         flex-direction: column;
     }
-    .card-container1>div:nth-child(1){
+
+    .card-container1>div:nth-child(1) {
         flex-direction: column;
     }
+
     .card_container,
-    .card-container1{
+    .card-container1 {
         padding: 0 15px;
     }
+
     .homepage-section>div,
-    .homepage-section1>div{
+    .homepage-section1>div {
         flex-direction: column;
         align-items: center;
     }
-    .padding-50{
+
+    .padding-50 {
         padding: 5px 15px;
     }
-    .padding-left-70{
+
+    .padding-left-70 {
         padding: 0;
     }
-    .nav-item>.nav-link{
-        
-    padding: 10px 0px !important;
-        
+
+    .nav-item>.nav-link {
+
+        padding: 10px 0px !important;
+
     }
-    .dropdowns{
+
+    .dropdowns {
         flex-direction: column;
     }
-    
+
     .dropdown2 {
-        margin:20px 0px;
+        margin: 20px 0px;
     }
-    .icons-section{
+
+    .icons-section {
         overflow-x: scroll;
     }
+
     .footer2,
-    .footer3{
+    .footer3 {
         flex-direction: column;
     }
-    .about-footer{
+
+    .about-footer {
         padding-top: 20px;
     }
+
     .cart-addidas,
-    .box-with-adidas{
+    .box-with-adidas {
         flex-direction: column;
-       
+
     }
+
     .checkout-list,
     .offerscard-section1 {
         flex-direction: column;
     }
+
     .image-with-addidas,
-    .buynow-add-btn{
-        flex-direction: column;
-    }
-    .footer_container{
-        padding:  0 20px;
-    }
-    .main-content1,
-    .main-content2{
+    .buynow-add-btn {
         flex-direction: column;
     }
 
-    .dropdown-section{
+    .footer_container {
+        padding: 0 20px;
+    }
+
+    .main-content1,
+    .main-content2 {
+        flex-direction: column;
+    }
+
+    .dropdown-section {
         flex-direction: column;
         padding: 10px;
     }
-    .button-section{
+
+    .button-section {
         flex-direction: column;
         margin-left: 0px;
 
     }
-    .shop-products-btn{
-     margin-top: 14px;
+
+    .shop-products-btn {
+        margin-top: 14px;
     }
-    .offerscard-section1{
+
+    .offerscard-section1 {
         flex-direction: column;
     }
+
     .products-dropdown,
     .products-card-section,
     .products-main-section,
-    .products-two-btn{
+    .products-two-btn {
         flex-direction: column;
     }
-    
-    .close-btn{
+
+    .close-btn {
         display: block;
-       margin: 0; 
-       height: fit-content;
-       position: absolute;
-      top: 4px;
-       right: 5px;
+        margin: 0;
+        height: fit-content;
+        position: absolute;
+        top: 4px;
+        right: 5px;
 
     }
-  
-    .first-box{
+
+    .first-box {
         position: relative;
     }
-    .Addcart-image{
+
+    .Addcart-image {
         width: 100%;
         margin: 2px;
     }
-    .coupons-image{
+
+    .coupons-image {
         width: 100%;
         margin: 0px;
     }
-    .coupons-content{
+
+    .coupons-content {
         position: relative;
     }
-    .close-btn{
-        position:absolute;
+
+    .close-btn {
+        position: absolute;
 
     }
-    .edit-profile{
+
+    .edit-profile {
         flex-direction: column;
     }
-    .home-section{
-        flex-direction: column;
-        padding: 20px;
-    }
-    .work-section{
+
+    .home-section {
         flex-direction: column;
         padding: 20px;
     }
-    .main-orders{
+
+    .work-section {
+        flex-direction: column;
+        padding: 20px;
+    }
+
+    .main-orders {
         flex-direction: column;
     }
+
     .adiddas-box1,
-    .adiddas-box2{
+    .adiddas-box2 {
         flex-direction: column;
 
     }
-    .adidas-image{
+
+    .adidas-image {
         width: 100%;
         margin: 0px;
     }
-    .manage-main-content{
+
+    .manage-main-content {
         flex-direction: column;
 
 
     }
+
     .home-content,
-    .work-content{
+    .work-content {
         flex-direction: column;
 
     }
-    .wallet-main-content{
+
+    .wallet-main-content {
         flex-direction: column;
 
     }
-    .balance-boxes{
+
+    .balance-boxes {
         flex-direction: column;
 
     }
-    .pending-side>ul{
+
+    .pending-side>ul {
         flex-direction: column;
-       
+
 
     }
-    .pending-side>ul>li{
+
+    .pending-side>ul>li {
         padding-top: 20px;
     }
-    .image-with-addidas{
+
+    .image-with-addidas {
         flex-direction: column;
 
     }
-    .haircut-main-section{
+
+    .haircut-main-section {
         flex-direction: column;
 
     }
-    .booknow-share-btn{
+
+    .booknow-share-btn {
         flex-direction: column-reverse;
 
     }
-    .checkout-main-section{
+
+    .checkout-main-section {
         flex-direction: column;
 
     }
-    .booking-main-section{
+
+    .booking-main-section {
         flex-direction: column;
 
     }
-    .haircut-slot-content{
+
+    .haircut-slot-content {
         flex-direction: column;
-        
+
     }
-    .haircut-image{
+
+    .haircut-image {
         width: 100%;
         margin: 0px;
     }
-    .balance-request-section{
+
+    .balance-request-section {
         flex-direction: column;
     }
-    .referal-code-content{
+
+    .referal-code-content {
         flex-direction: column;
 
     }
-    .dropdown2-section{
+
+    .dropdown2-section {
         flex-direction: column;
 
     }
-    .top-brand-maincontent{
+
+    .top-brand-maincontent {
         flex-direction: column;
 
     }
-    .shops-section{
+
+    .shops-section {
         flex-direction: column;
     }
-    .history-section{
+
+    .history-section {
         flex-direction: column;
 
     }
-    .wallet-main-section{
+
+    .wallet-main-section {
         flex-direction: column;
 
     }
-    .refferal-main-content{
+
+    .refferal-main-content {
         flex-direction: column;
 
 
     }
-    .refferal-code-section{
+
+    .refferal-code-section {
         flex-direction: column;
 
     }
-    .plans-section{
+
+    .plans-section {
         flex-direction: column;
     }
-    .balance-list-section{
+
+    .balance-list-section {
         flex-direction: column;
 
     }
-    .recent-sale-section{
+
+    .recent-sale-section {
         flex-direction: column;
 
     }
-    .stores-main-section{
+
+    .stores-main-section {
         flex-direction: column;
 
     }
-    .coupons-section{
+
+    .coupons-section {
         flex-direction: column;
 
     }
-    .image-digital-section{
+
+    .image-digital-section {
         flex-direction: column;
     }
-    .digital-section{
+
+    .digital-section {
         flex-direction: column;
 
     }
+
     .stores-box {
         width: 100%;
     }
-    .store-coupon-btn{
-        flex-direction: column;
-        
-    }
-    .upgrade-section{
-        flex-direction: column;
-    }
-    .buy-customer-section{
+
+    .store-coupon-btn {
         flex-direction: column;
 
     }
-    .create-offer-section{
+
+    .upgrade-section {
+        flex-direction: column;
+    }
+
+    .buy-customer-section {
         flex-direction: column;
 
     }
-    .preview-section{
+
+    .create-offer-section {
         flex-direction: column;
 
     }
-    .enter-discount-section{
-        flex-direction: column;
-    }
-    .enterno-section{
+
+    .preview-section {
         flex-direction: column;
 
     }
-    .discount-upto-section{
+
+    .enter-discount-section {
+        flex-direction: column;
+    }
+
+    .enterno-section {
         flex-direction: column;
 
     }
-    .wallet2-main-section{
-        flex-direction: column;
-    }
-    .coupons-affiliate-section{
+
+    .discount-upto-section {
         flex-direction: column;
 
     }
-    .fillup-section{
+
+    .wallet2-main-section {
+        flex-direction: column;
+    }
+
+    .coupons-affiliate-section {
         flex-direction: column;
 
     }
-    .product-sevice-section{
-         flex-direction: column;
+
+    .fillup-section {
+        flex-direction: column;
+
+    }
+
+    .product-sevice-section {
+        flex-direction: column;
 
 
     }
-   
-    .tabl-scrol{
+
+    .tabl-scrol {
         overflow-x: scroll;
     }
-    .selling-section{
+
+    .selling-section {
         flex-direction: column;
     }
-    .selling-image-section{
+
+    .selling-image-section {
         flex-direction: column;
     }
-    .branch-main-section{
+
+    .branch-main-section {
         flex-direction: column;
 
     }
-    .branch-btn{
+
+    .branch-btn {
         flex-direction: column;
 
     }
-    .create-branch-section{
+
+    .create-branch-section {
         flex-direction: column;
     }
-    .create-card-section{
+
+    .create-card-section {
         flex-direction: column;
     }
-    .upto-section{
+
+    .upto-section {
         flex-direction: column;
 
     }
-    .offer-duration-section{
+
+    .offer-duration-section {
         flex-direction: column;
 
     }
-    .buy-get-section{
+
+    .buy-get-section {
         flex-direction: column;
 
     }
-    .manage-product-section{
+
+    .manage-product-section {
         flex-direction: column;
     }
-    .product-tabl-scrol{
+
+    .product-tabl-scrol {
         overflow-x: scroll;
     }
-    .manage-product-btn{
+
+    .manage-product-btn {
         flex-direction: column;
     }
-    .showing-products-section{
+
+    .showing-products-section {
         flex-direction: column;
     }
-    .showing-product-dropdown{
+
+    .showing-product-dropdown {
         flex-direction: column;
     }
-    .manage-service-section{
+
+    .manage-service-section {
         flex-direction: column;
     }
-    .manage-servive-scrol{
+
+    .manage-servive-scrol {
         overflow-x: scroll;
     }
-    .manage-service-btn{
+
+    .manage-service-btn {
         flex-direction: column;
 
     }
-    .create-product-section{
+
+    .create-product-section {
         flex-direction: column;
 
     }
-    .image-field-section{
+
+    .image-field-section {
         flex-direction: column;
     }
-    .create-service-section{
+
+    .create-service-section {
         flex-direction: column;
     }
-    .image-field{
+
+    .image-field {
         flex-direction: column;
     }
-    .manage-orders-section{
+
+    .manage-orders-section {
         flex-direction: column;
     }
-    .list-order-section{
+
+    .list-order-section {
         flex-direction: column;
     }
-    .list-dropdown{
+
+    .list-dropdown {
         flex-direction: column;
     }
-    .manage-table-scrol{
+
+    .manage-table-scrol {
         overflow-x: scroll;
     }
-    .manage-vendor-section{
+
+    .manage-vendor-section {
         flex-direction: column;
 
     }
-    .dropdownlast-section{
+
+    .dropdownlast-section {
         flex-direction: column;
 
     }
-    .offer-table-scrol{
+
+    .offer-table-scrol {
         overflow-x: scroll;
     }
-    .storepage-main-section{
+
+    .storepage-main-section {
         flex-direction: column;
-        
+
 
     }
-    .image-cloth-section{
+
+    .image-cloth-section {
         flex-direction: column-reverse
-
     }
-    .coupon-table-scrol{
+
+    .coupon-table-scrol {
         overflow-x: scroll;
     }
-    .request-section{
+
+    .request-section {
         flex-direction: column;
     }
-    .mt-box{
+
+    .mt-box {
         width: 100%;
     }
-    .delivery-main-section{
+
+    .delivery-main-section {
         flex-direction: column;
 
     }
-    .id-scrol{
+
+    .id-scrol {
         overflow-x: scroll;
     }
-    .pickup-return-btn{
-        flex-direction: column;
-    }
-    .basic-vendor-section{
-        flex-direction: column;
 
-    }
-    .basic-main-section{
+    .pickup-return-btn {
         flex-direction: column;
     }
-    .location-section{
+
+    .basic-vendor-section {
         flex-direction: column;
 
     }
 
+    .basic-main-section {
+        flex-direction: column;
+    }
+
+    .location-section {
+        flex-direction: column;
+
+    }
 
 
 
-    
 
 
 
 
-   
+
+
+
 }
 
 /* tab and large mobile screen  */
 
 @media(min-width: 425px) and (max-width: 767px) {
-    .dropdown-box{
+    .dropdown-box {
         padding: 15px 0px 15px 18px;
-    
+
     }
-    .card_container>div:nth-child(1)
-  {
+
+    .card_container>div:nth-child(1) {
         flex-direction: column;
     }
- 
+
     .card_container,
-    .card-container1{
+    .card-container1 {
         padding: 0 15px;
     }
-      .homepage-section>div,
-    .homepage-section1>div{
-      
+
+    .homepage-section>div,
+    .homepage-section1>div {
+
         align-items: center;
     }
-    .padding-50{
+
+    .padding-50 {
         padding: 5px 15px;
     }
-    .padding-left-70{
+
+    .padding-left-70 {
         padding: 0;
     }
-    .nav-item>.nav-link{
-        
-    padding: 10px 0px !important;
-        
+
+    .nav-item>.nav-link {
+
+        padding: 10px 0px !important;
+
     }
+
     .footer2,
-    .footer3{
+    .footer3 {
         flex-direction: column;
     }
-    .about-footer{
+
+    .about-footer {
         padding-top: 20px;
     }
+
     .cart-addidas,
     .offerscard-section1 {
         flex-direction: column;
     }
-    .checkout-list{
+
+    .checkout-list {
         flex-direction: column;
     }
+
     .main-content1,
-    .main-content2{
+    .main-content2 {
         flex-direction: column;
     }
-    .dropdown-section{
+
+    .dropdown-section {
         flex-direction: column;
         padding: 10px;
     }
+
     .offerscard-section1 {
         flex-direction: column;
     }
+
     /* .offerscard-section {
         flex-direction: column;
     } */
-    .dropdown3{
+    .dropdown3 {
         margin-top: 15px;
     }
-    
+
     .products-dropdown,
     .products-card-section,
     .products-main-section,
-    .products-two-btn{
+    .products-two-btn {
         flex-direction: column;
     }
-    .box-with-adidas{
+
+    .box-with-adidas {
         flex-direction: column;
         position: relative;
     }
-    .close-btn{
-        position:absolute;
+
+    .close-btn {
+        position: absolute;
         right: 28px;
 
     }
-   .Addcart-image{
-    width: 100%;
-    margin: 0px;
-    
-   }
-   .summary-list{
-    display: flex;
-   }
-   .coupons-image{
-    margin: 0px;
-    width: 100%;
-   }
-   .first-box{
-    flex-direction: column;
-   }
-   .want-to-earn{
-    flex-direction: column;
-   }
-   .edit-profile{
-    flex-direction: column;
-}
-.home-section{
-    flex-direction: column;
-    padding: 20px;
-}
-.work-section{
-    flex-direction: column;
-    padding: 20px;
-}
-.main-orders{
-    flex-direction: column;
-}
-.adiddas-box1,
-.adiddas-box2{
+
+    .Addcart-image {
+        width: 100%;
+        margin: 0px;
+
+    }
+
+    .summary-list {
+        display: flex;
+    }
+
+    .coupons-image {
+        margin: 0px;
+        width: 100%;
+    }
+
+    .first-box {
+        flex-direction: column;
+    }
+
+    .want-to-earn {
+        flex-direction: column;
+    }
+
+    .edit-profile {
+        flex-direction: column;
+    }
+
+    .home-section {
+        flex-direction: column;
+        padding: 20px;
+    }
+
+    .work-section {
+        flex-direction: column;
+        padding: 20px;
+    }
+
+    .main-orders {
+        flex-direction: column;
+    }
+
+    .adiddas-box1,
+    .adiddas-box2 {
         flex-direction: column;
 
     }
-    .adidas-image{
+
+    .adidas-image {
         width: 250px;
     }
-    .wallet-main-content{
+
+    .wallet-main-content {
         flex-direction: column;
 
     }
-    .balance-boxes{
+
+    .balance-boxes {
         flex-direction: column;
 
     }
-    .image-with-addidas{
+
+    .image-with-addidas {
         flex-direction: column;
 
     }
-    .haircut-main-section{
+
+    .haircut-main-section {
         flex-direction: column;
 
     }
-    .booknow-share-btn{
+
+    .booknow-share-btn {
         flex-direction: column-reverse;
 
     }
-    .checkout-main-section{
+
+    .checkout-main-section {
         flex-direction: column;
 
     }
-    .booking-main-section{
+
+    .booking-main-section {
         flex-direction: column;
 
     }
-    .haircut-slot-content{
+
+    .haircut-slot-content {
         flex-direction: column;
-        
+
     }
-    .haircut-image{
+
+    .haircut-image {
         width: 100%;
         margin: 0px;
     }
-    .dropdown2-section{
+
+    .dropdown2-section {
         flex-direction: column;
 
     }
-    .top-brand-maincontent{
+
+    .top-brand-maincontent {
         flex-direction: column;
 
     }
-    .shops-section{
+
+    .shops-section {
         flex-direction: column;
     }
-    .history-section{
+
+    .history-section {
         flex-direction: column;
 
     }
-    .wal-drop{
+
+    .wal-drop {
         margin-top: 20px;
 
     }
-    .wallet-main-section{
+
+    .wallet-main-section {
         flex-direction: column;
 
     }
-    .refferal-main-content{
+
+    .refferal-main-content {
         flex-direction: column;
 
 
     }
-    .refferal-code-section{
+
+    .refferal-code-section {
         flex-direction: column;
 
     }
-    .plans-section{
+
+    .plans-section {
         flex-direction: column;
     }
-    .balance-list-section{
+
+    .balance-list-section {
         flex-direction: column;
 
     }
-    .stores-main-section{
+
+    .stores-main-section {
         flex-direction: column;
 
     }
-    .coupons-section{
+
+    .coupons-section {
         flex-direction: column;
 
     }
-    .image-digital-section{
+
+    .image-digital-section {
         flex-direction: column;
     }
-    .digital-section{
+
+    .digital-section {
         flex-direction: column;
 
     }
+
     .stores-box {
         width: 100%;
     }
-    .store-coupon-btn{
-        flex-direction: column;
-        
-    }
-    .preview-section{
-        flex-direction: column;
 
-    }
-    .enterno-section{
-        flex-direction: column;
-
-    }
-    .enter-discount-section{
-        flex-direction: column;
-    }
-    .discount-upto-section{
-        flex-direction: column;
-
-    }
-    .create-offer-section{
-        flex-direction: column;
-
-    }
-    .upgrade-section{
-        flex-direction: column;
-    }
-    .buy-customer-section{
-        flex-direction: column;
-
-    }
-    .create-offer-section{
-        flex-direction: column;
-
-    }
-    .enterno-section{
-        flex-direction: column;
-
-    }
-    .wallet2-main-section{
-        flex-direction: column;
-    }
-    .coupons-affiliate-section{
-        flex-direction: column;
-
-    }
-     .fillup-section{
-        flex-direction: column;
-
-    }
-    .product-sevice-section{
-        flex-direction: column;
-
-
-   }
-  
-   .tabl-scrol{
-       overflow-x: scroll;
-   }
-   .selling-section{
-       flex-direction: column;
-   }
-   .selling-image-section{
-       flex-direction: column;
-   }
-   .branch-main-section{
-    flex-direction: column;
-
-}
-.branch-btn{
-    flex-direction: column;
-
-}
-.create-branch-section{
-    flex-direction: column;
-}
-.create-card-section{
-    flex-direction: column;
-}
-.offer-duration-section{
-    flex-direction: column;
-
-}
-.buy-get-section{
-    flex-direction: column;
-
-}
-.manage-product-section{
-    flex-direction: column;
-}
-.product-tabl-scrol{
-    overflow-x: scroll;
-}
-.manage-product-btn{
-    flex-direction: column;
-}
-.showing-products-section{
-    flex-direction: column;
-}
-.showing-product-dropdown{
-    flex-direction: column;
-}
-.manage-service-section{
-    flex-direction: column;
-}
-.manage-servive-scrol{
-    overflow-x: scroll;
-}
-.manage-service-btn{
-    flex-direction: column;
-
-}
-.create-product-section{
-    flex-direction: column;
-
-}
-.image-field-section{
-    flex-direction: column;
-}
-.create-service-section{
-    flex-direction: column;
-}
-.image-field{
-    flex-direction: column;
-}
-.list-order-section{
-    flex-direction: column;
-}
-.list-dropdown{
-    flex-direction: column;
-}
-.manage-table-scrol{
-    overflow-x: scroll;
-}
-.manage-orders-section{
-    flex-direction: column;
-}
-.manage-vendor-section{
-    flex-direction: column;
-
-}
-.dropdownlast-section{
-    flex-direction: column;
-
-}
-.offer-table-scrol{
-    overflow-x: scroll;
-}
-.storepage-main-section{
-    flex-direction: column;
-    
-
-}
-.image-cloth-section{
-    flex-direction: column-reverse
-
-}
-.coupon-table-scrol{
-    overflow-x: scroll;
-}
-.request-section{
-    flex-direction: column;
-}
-.mt-box{
-    width: 100%;
-}
-.delivery-main-section{
-    flex-direction: column;
-
-}
-.id-scrol{
-    overflow-x: scroll;
-}
-.pickup-return-btn{
-    flex-direction: column;
-}
-.basic-vendor-section{
-    flex-direction: column;
-
-}
-.basic-main-section{
-    flex-direction: column;
-}
-.location-section{
-    flex-direction: column;
-
-}
-.icons-section{
-    overflow-x: scroll;
-}
-.manage-main-content{
-    flex-direction: column;
-
-
-}
-.home-content,
-    .work-content{
+    .store-coupon-btn {
         flex-direction: column;
 
     }
 
+    .preview-section {
+        flex-direction: column;
 
-  
+    }
 
-    
-   
-    
-    
+    .enterno-section {
+        flex-direction: column;
+
+    }
+
+    .enter-discount-section {
+        flex-direction: column;
+    }
+
+    .discount-upto-section {
+        flex-direction: column;
+
+    }
+
+    .create-offer-section {
+        flex-direction: column;
+
+    }
+
+    .upgrade-section {
+        flex-direction: column;
+    }
+
+    .buy-customer-section {
+        flex-direction: column;
+
+    }
+
+    .create-offer-section {
+        flex-direction: column;
+
+    }
+
+    .enterno-section {
+        flex-direction: column;
+
+    }
+
+    .wallet2-main-section {
+        flex-direction: column;
+    }
+
+    .coupons-affiliate-section {
+        flex-direction: column;
+
+    }
+
+    .fillup-section {
+        flex-direction: column;
+
+    }
+
+    .product-sevice-section {
+        flex-direction: column;
+
+
+    }
+
+    .tabl-scrol {
+        overflow-x: scroll;
+    }
+
+    .selling-section {
+        flex-direction: column;
+    }
+
+    .selling-image-section {
+        flex-direction: column;
+    }
+
+    .branch-main-section {
+        flex-direction: column;
+
+    }
+
+    .branch-btn {
+        flex-direction: column;
+
+    }
+
+    .create-branch-section {
+        flex-direction: column;
+    }
+
+    .create-card-section {
+        flex-direction: column;
+    }
+
+    .offer-duration-section {
+        flex-direction: column;
+
+    }
+
+    .buy-get-section {
+        flex-direction: column;
+
+    }
+
+    .manage-product-section {
+        flex-direction: column;
+    }
+
+    .product-tabl-scrol {
+        overflow-x: scroll;
+    }
+
+    .manage-product-btn {
+        flex-direction: column;
+    }
+
+    .showing-products-section {
+        flex-direction: column;
+    }
+
+    .showing-product-dropdown {
+        flex-direction: column;
+    }
+
+    .manage-service-section {
+        flex-direction: column;
+    }
+
+    .manage-servive-scrol {
+        overflow-x: scroll;
+    }
+
+    .manage-service-btn {
+        flex-direction: column;
+
+    }
+
+    .create-product-section {
+        flex-direction: column;
+
+    }
+
+    .image-field-section {
+        flex-direction: column;
+    }
+
+    .create-service-section {
+        flex-direction: column;
+    }
+
+    .image-field {
+        flex-direction: column;
+    }
+
+    .list-order-section {
+        flex-direction: column;
+    }
+
+    .list-dropdown {
+        flex-direction: column;
+    }
+
+    .manage-table-scrol {
+        overflow-x: scroll;
+    }
+
+    .manage-orders-section {
+        flex-direction: column;
+    }
+
+    .manage-vendor-section {
+        flex-direction: column;
+
+    }
+
+    .dropdownlast-section {
+        flex-direction: column;
+
+    }
+
+    .offer-table-scrol {
+        overflow-x: scroll;
+    }
+
+    .storepage-main-section {
+        flex-direction: column;
+
+
+    }
+
+    .image-cloth-section {
+        flex-direction: column-reverse
+    }
+
+    .coupon-table-scrol {
+        overflow-x: scroll;
+    }
+
+    .request-section {
+        flex-direction: column;
+    }
+
+    .mt-box {
+        width: 100%;
+    }
+
+    .delivery-main-section {
+        flex-direction: column;
+
+    }
+
+    .id-scrol {
+        overflow-x: scroll;
+    }
+
+    .pickup-return-btn {
+        flex-direction: column;
+    }
+
+    .basic-vendor-section {
+        flex-direction: column;
+
+    }
+
+    .basic-main-section {
+        flex-direction: column;
+    }
+
+    .location-section {
+        flex-direction: column;
+
+    }
+
+    .icons-section {
+        overflow-x: scroll;
+    }
+
+    .manage-main-content {
+        flex-direction: column;
+
+
+    }
+
+    .home-content,
+    .work-content {
+        flex-direction: column;
+
+    }
+
+    .buynow-add-btn {
+        flex-direction: column;
+    }
+
+    .balance-request-section {
+        flex-direction: column;
+    }
+
+
+
+
+
+
+
+
 }
 
 
@@ -881,8 +1101,7 @@
 
 /* laptop screen */
 @media(min-width: 768px) and (max-width: 1023px) {
-.dropdown2
-    { 
+    .dropdown2 {
         margin-left: 20px;
 
     }
@@ -891,142 +1110,183 @@
         flex-direction: column;
     }
 
-    .button-section{
-        display:flex;
+    .button-section {
+        display: flex;
     }
-    .cart-addidas{
-        flex-direction:column;
-    }
-    first-box,
-    second-box{
+
+    .cart-addidas {
         flex-direction: column;
     }
-    .footer3{
+
+    first-box,
+    second-box {
+        flex-direction: column;
+    }
+
+    .footer3 {
         flex-wrap: wrap;
     }
-    .checkout-list{
+
+    .checkout-list {
         flex-direction: column;
     }
-    .edit-name-list{
+
+    .edit-name-list {
         padding-left: 20px;
     }
-    .main-orders{
+
+    .main-orders {
         flex-direction: column;
     }
-    
-    
-    .booknow-share-btn{
+
+
+    .booknow-share-btn {
         flex-direction: column-reverse;
 
     }
-    .deliver-share-btn{
+
+    .deliver-share-btn {
         flex-direction: column;
 
     }
-    .checkout-main-section{
+
+    .checkout-main-section {
         flex-direction: column;
 
     }
-    .booking-main-section{
+
+    .booking-main-section {
         flex-direction: column;
 
     }
-    .balance-request-section{
+
+    .balance-request-section {
         flex-direction: column;
         margin-left: 25px;
     }
-    
-    .top-brand-maincontent{
+
+    .top-brand-maincontent {
         flex-direction: column;
 
     }
-    .font-siz{
+
+    .font-siz {
         font-size: 15px;
     }
-    .store-coupon-btn{
-        flex-direction: column;
-        
-    }   
-    .image-digital-section{
-        flex-direction: column;
-    }
-    .digital-section{
+
+    .store-coupon-btn {
         flex-direction: column;
 
-    } 
+    }
+
+    .image-digital-section {
+        flex-direction: column;
+    }
+
+    .digital-section {
+        flex-direction: column;
+
+    }
+
     .stores-box {
         width: 100%;
     }
-    .preview-section{
+
+    .preview-section {
         flex-direction: column;
 
     }
-    .upgrade-section{
+
+    .upgrade-section {
         flex-direction: column;
     }
-    .buy-customer-section{
+
+    .buy-customer-section {
         flex-direction: column;
 
     }
-     .fillup-section{
+
+    .fillup-section {
         flex-direction: column;
 
     }
-    .tabl-scrol{
+
+    .tabl-scrol {
         overflow-x: scroll;
     }
-    .selling-section{
+
+    .selling-section {
         flex-direction: column;
     }
-    .selling-image-section{
+
+    .selling-image-section {
         flex-direction: column;
     }
-    .bg-box{
+
+    .bg-box {
         width: 100%;
         height: 140px;
     }
-    .create-card-section{
+
+    .create-card-section {
         flex-direction: column;
     }
-    .enter-discount-section{
+
+    .enter-discount-section {
         flex-direction: column;
     }
-    .product-tabl-scrol{
+
+    .product-tabl-scrol {
         overflow-x: scroll;
     }
-    .manage-servive-scrol{
+
+    .manage-servive-scrol {
         overflow-x: scroll;
     }
-    .manage-table-scrol{
+
+    .manage-table-scrol {
         overflow-x: scroll;
     }
-    .offer-table-scrol{
+
+    .offer-table-scrol {
         overflow-x: scroll;
     }
-    .coupon-table-scrol{
+
+    .coupon-table-scrol {
         overflow-x: scroll;
     }
-    .request-section{
+
+    .request-section {
         flex-direction: column;
     }
-    .basic-vendor-section{
+
+    .basic-vendor-section {
         flex-direction: column;
 
     }
-    .icons-section{
+
+    .icons-section {
         overflow-x: scroll;
     }
-    .nav-item>.nav-link{
-        
+
+    .nav-item>.nav-link {
+
         padding: 10px 0px !important;
-            
-        }
-      
+
+    }
+    .coupons-affiliate-section {
+        flex-direction: column;
+
+    }
     
+
+
     
-     
-    
- 
+
+
+
+
+
 
 
 }
@@ -1034,32 +1294,40 @@
 
 @media(min-width: 1024px) and (max-width: 1400px) {
 
-    dropdown2
-    { 
+    dropdown2 {
         margin-left: 20px;
 
     }
-    .cart-addidas{
+
+    .cart-addidas {
         display: flex;
     }
+
     .edit-btn,
-    .work-btn{
-    margin: 20px;
+    .work-btn {
+        margin: 20px;
 
     }
-    .icons-section{
+
+    .icons-section {
         overflow-x: scroll;
     }
-    .nav-item>.nav-link{
-        
+
+    .nav-item>.nav-link {
+
         padding: 10px 0px !important;
-            
+
     }
-    .nav-section>ul>li{
+
+    .nav-section>ul>li {
         padding-right: 18px;
     }
+    .selling-section{
+        flex-direction: column;
+    }
+    .preview-section{
+        flex-direction: column;
+    }
 
-         
+
 }
-
-

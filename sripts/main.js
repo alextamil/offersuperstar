@@ -134,3 +134,24 @@ function registerasvendor() {
     var a = 'registerasvendor.html';   
   window.location.href = a;
 }
+
+
+function age(){
+
+    var b ="dashboardvendor.html";
+    window.location.href = b;
+}
+
+
+
+function termsandconditions(){
+
+    var b ="terms and conditions.html";
+    window.location.href = b;
+}
+
+function user(){
+
+    var b ="user.html";
+    window.location.href = b;
+}

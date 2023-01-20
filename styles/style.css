@@ -1,12 +1,12 @@
 @font-face {
-    font-family: 'new font';
-    src: url(/fonts/Lato-Regular.otf),
-         url(/fonts/Lato-Regular.ttf),
-         url(/fonts/Lato-Regular.woff),
-         url(/fonts/Lato-Regular.woff2);
+   font-family: 'myfont';
+   src: url(/fonts/Poppins-Regular.ttf),
+   url(/fonts/Poppins-Regular.otf),
+   url(/fonts/Poppins-Regular.woff),
+   url(/fonts/Poppins-Regular.woff2);
 }
-html{
-    font-family: 'new font';
+*{
+    font-family: 'myfont';
     text-transform: capitalize;
 }
 
@@ -16,6 +16,13 @@ body{
 }
 .main-container{
  background: #FAFBFE !important;
+}
+
+.first_btn{
+   background-color: #2C1FB2 !important;
+}
+.second_btn{
+   background-color: #E10508 !important;
 }
 .slide{
     height: 500px;
@@ -44,16 +51,21 @@ body{
     color: white;
  }
  .Addcart-image{
-   width: 120px;
+   width: 140px;
    height: 150px;
    border-radius: 4px;
-   padding: 0px 27px;
+   padding: 0px 0px;
    background-color: #a0a0a0;
    margin: 24px;
  }
  .upto>h3{
     font-size: 18px;
     
+ }
+ .svg-color>svg{
+color: white;
+
+
  }
  .coupons>p{
     font-size: 12px;
@@ -81,20 +93,17 @@ body{
     border-radius: 20px;
     background-color: #CCCCCC;
     color: black;
+    font-size: 14px;
 
 }
 
-.card_container{
-    padding:  0 50px;
-}
+
 .terms{
     background-color: white;
     color: black;
     font-size: 10px;
 }
-.card-container1{
-    padding:  0 50px;
-}
+
 .nav-item>.nav-link{
     padding: 0 30px !important;
 }
@@ -123,9 +132,9 @@ body{
 {
     padding: 0px;
 }
-.icon-size>img{
-   width: 50px;
-   height: 50px;
+.icon-size>div>img{
+   width: 70px;
+   height: 70px;
 }
 
 
@@ -194,6 +203,10 @@ body{
  .label-font{
     font-size: 17px;
     padding-bottom: 10px;
+ }
+ .Addcart-image>img{
+   width: 100%;
+   height: inherit;
  }
 
 
